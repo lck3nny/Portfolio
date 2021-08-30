@@ -21,7 +21,7 @@
     $about_me_bodys = [$lorem_ipsum, $lorem_ipsum];
     
     $projects_tagline = "Here's what I've been working on";
-    $my_projects = ["Avalanche Prediction", "Pokémon Generator", "Computer Security", "Surrey Snowsports", "SNKRS", "Empty"];
+    $my_projects = ["Avalanche Prediction", "Pokémon Generator", "Surrey Stack", "Surrey Snowsports", "Computer Security", "SNKRS"];
 
     // Footer content
     

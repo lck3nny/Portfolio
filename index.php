@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Liam Kenny Portfolio Website</title>
+        <?php include "content.php";?>
+        <title><?php echo $my_name;?> Portfolio Website</title>
         
         <!-- Normalize will work with all browsers -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
@@ -21,10 +22,7 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Header Import -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <?php 
-            include "header.html";
-            include "content.php";
-        ?>
+        <?php include "header.html";?>
         
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -40,7 +38,7 @@
                 ?>
             </p>
             <img img src="src/snowy_liam_square.png" class="intro_img" alt="picture of Liam smiling">
-        </section>
+        </section> <!-- /section -->
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- My Skills -->
@@ -109,7 +107,7 @@
                 <!-- portfolio item 3 -->
                 <a href="#" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[2];?></div>
-                    <img src="src/security_square.png" alt="" class="portfolio_img">
+                    <img src="src/surrey_square.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 4 -->
@@ -121,13 +119,13 @@
                 <!-- portfolio item 5 -->
                 <a href="#" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[4];?></div>
-                    <img src="src/snkrs_square.png" alt="" class="portfolio_img">
+                    <img src="src/security_square.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 6 -->
                 <a href="#" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[5];?></div>
-                    <img src="src/snowy_liam_square.png" alt="" class="portfolio_img">
+                    <img src="src/snkrs_square.png" alt="" class="portfolio_img">
                 </a>
                 
             </div>    
