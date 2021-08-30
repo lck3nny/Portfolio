@@ -21,54 +21,51 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Header Import -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <?php include "header.html";?>
+        <?php 
+            include "header.html";
+            include "content.php";
+        ?>
+        
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Introduction -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <section class="intro" id="home">
             <h1 class="section_title section_title-intro">
-                Hi, I am <strong>Liam Kenny</strong>
+                Hi, I am <strong><?php echo $my_name;?></strong>
             </h1>
             <p class="section_subtitle section_subtitle-intro">
-                Developer
+                <?php 
+                    echo $my_tagline;
+                ?>
             </p>
             <img img src="src/snowy_liam_square.png" class="intro_img" alt="picture of Liam smiling">
         </section>
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <!-- My Services -->
+        <!-- My Skills -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <section class="my-services" id="services">
-            <h2 class="section_title section_title-services">What I Do</h2>
-            <div class="services">
+        <section class="my-skills" id="skills">
+            <h2 class="section_title section_title-skills">My Skills</h2>
+            <div class="skills">
 
-                <div class="service">
-                    <h3>Web / App Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
+                <div class="skill">
+                    <h3><?php echo $my_skills[0];?></h3>
+                    <p><?php echo $my_skills_bodys[0];?></p>
+                </div> <!-- / skill -->
 
-                <div class="service">
-                    <h3>Data and Analytics</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
+                <div class="skill">
+                    <h3><?php echo $my_skills[1];?></h3>
+                    <p><?php echo $my_skills_bodys[1];?></p>
+                </div> <!-- / skill -->
 
-                <div class="service">
-                    <h3>Machine Learning</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
+                <div class="skill">
+                    <h3><?php echo $my_skills[2];?></h3>
+                    <p><?php echo $my_skills_bodys[2];?></p>
+                </div> <!-- / skill -->
 
-            </div> <!-- / services -->
-            <a href="#work" class="btn">My Work</a>
+            </div> <!-- / skills -->
+            <a href="#work" class="btn">My Projects</a>
 
         </section>
 
@@ -76,18 +73,12 @@
         <!-- About Me -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <section class="about-me" id="about">
-            <h2 class="section_title section_title-about">Who I am</h2>
-            <p class="section_subtitle section_subtitle-about">I am a Developer based out of Whistler, BC</p>
+            <h2 class="section_title section_title-about">About Me</h2>
+            <p class="section_subtitle section_subtitle-about"><?php echo $about_me_tagline;?></p>
 
             <div class="about-me_body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.</p>
+                <p><?php echo $about_me_bodys[0];?></p>
+                <p><?php echo $about_me_bodys[1];?></p>
             </div>
 
             <img src="src/snowy_liam.png" alt="picture of Liam smiling" class="about-me_img">
@@ -96,40 +87,46 @@
         </section>
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <!-- My Work -->
+        <!-- My Projects -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <section class="my-work" id="work">
-            <h2 class="section_title section_title-work">My Work</h2>
-            <p class="section_subtitle section_subtitle-work">jafasfsdfsdafasf</p>
+        <section class="my-projects" id="projects">
+            <h2 class="section_title section_title-projects">My Projects</h2>
+            <p class="section_subtitle section_subtitle-projects"><?php echo $projects_tagline;?></p>
 
             <div class="portfolio">
                 <!-- portfolio item 1 -->
                 <a href="#" class="portfolio_item">
-                    <img src="src/snowy_liam_square.png" alt="" class="portfolio_img">
+                    <div class='portfolio_text'><?php echo $my_projects[0];?></div>
+                    <img src="src/avalanche_square_light.png" alt="" class="portfolio_img" >
                 </a>
 
                 <!-- portfolio item 2 -->
                 <a href="#" class="portfolio_item">
-                    <img src="src/snowy_liam_square.png" alt="" class="portfolio_img">
+                    <div class='portfolio_text'><?php echo $my_projects[1];?></div>
+                    <img src="src/pokemon_square_2.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 3 -->
                 <a href="#" class="portfolio_item">
-                    <img src="src/snowy_liam_square.png" alt="" class="portfolio_img">
+                    <div class='portfolio_text'><?php echo $my_projects[2];?></div>
+                    <img src="src/security_square.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 4 -->
                 <a href="#" class="portfolio_item">
-                    <img src="src/snowy_liam_square.png" alt="" class="portfolio_img">
+                    <div class='portfolio_text'><?php echo $my_projects[3];?></div>
+                    <img src="src/susnow_square.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 5 -->
                 <a href="#" class="portfolio_item">
-                    <img src="src/snowy_liam_square.png" alt="" class="portfolio_img">
+                    <div class='portfolio_text'><?php echo $my_projects[4];?></div>
+                    <img src="src/snkrs_square.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 6 -->
                 <a href="#" class="portfolio_item">
+                    <div class='portfolio_text'><?php echo $my_projects[5];?></div>
                     <img src="src/snowy_liam_square.png" alt="" class="portfolio_img">
                 </a>
                 
