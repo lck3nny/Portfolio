@@ -19,7 +19,6 @@
     </head>
 
     <body>
-        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Header Import -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <?php include "header.html";?>
@@ -93,13 +92,13 @@
 
             <div class="portfolio">
                 <!-- portfolio item 1 -->
-                <a href="#" class="portfolio_item">
+                <a href="avalanche.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[0];?></div>
                     <img src="src/avalanche_square_light.png" alt="" class="portfolio_img" >
                 </a>
 
                 <!-- portfolio item 2 -->
-                <a href="#" class="portfolio_item">
+                <a href="pokemon.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[1];?></div>
                     <img src="src/pokemon_square_2.png" alt="" class="portfolio_img">
                 </a>

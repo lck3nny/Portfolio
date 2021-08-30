@@ -17,7 +17,8 @@
     --clr-dark: #303030;
     --clr-darker: #1f1f1f;
     --clr-accent: #16e0bd;
-    --clr-dark-trans: rgba(48, 48, 48, 0.25)
+    --clr-light-trans: rgba(48, 48, 48, 0.7);
+    --clr-dark-trans: rgba(29, 29, 29, 0.7);
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -33,14 +34,18 @@
 /* Default Media Queries  */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-@media (min-width: 800px) {
+@media (min-width: 1050px) {
     :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
+        --fs-h1: 3.6rem;
+        --fs-h2: 2.7rem;
         --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
+        --fs-body: 1.2rem;
     }
 }
+
+
+
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* General Styling */
@@ -109,12 +114,17 @@ section{
 
 .section_title{
     margin: 0;
-    margin-bottom: .25em;
-
 }
 
 .section_title-intro{
-    font-weight: var(--fw-reg);    
+    font-weight: var(--fw-reg);  
+    margin-bottom: .25em;  
+ 
+    
+}
+
+.section_title-intro-alt{
+    padding-top: 1.5em;  
 }
 
 .section_title-intro strong{
@@ -154,7 +164,7 @@ section{
 }
 
 /* Nav */
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .nav{
     position: fixed;
     background-color: var(--clr-dark);
@@ -208,6 +218,8 @@ section{
 
 
 
+/* Nav Optimization for Different Screen Sizes*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 
 @media (min-width: 900px){
@@ -216,13 +228,13 @@ section{
     }
 }
 
-@media (min-width: 600px) and (max-width: 900px){
+@media (min-width: 800px) and (max-width: 900px){
     .nav-open .nav {
         transform: translateX(60%);
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
     .nav-open .nav {
         transform: translateX(50%);
     }
@@ -232,7 +244,9 @@ section{
     position: fixed;
 }
 
-/* Hamburger Animation */
+/* Hamburger Animation - Navigation Toggle */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 
 .nav-open .hamburger {
     transform: rotate(.625turn);
@@ -247,6 +261,7 @@ section{
 }
 
 /* Hamburger */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .hamburger{
     display: block;
@@ -279,9 +294,10 @@ section{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .intro{
     position: relative;
+    
 }
 
-@media (min-width: 600px){
+@media (min-width: 800px){
     .intro{
         display: grid;
         width: min-content;
@@ -289,6 +305,7 @@ section{
         grid-column-gap: 1em;
         grid-template-areas: "img title" "img subtitle";
         grid-template-columns: min-content max-content;
+        overflow: scroll;
     }
 
     .intro_img{
@@ -349,6 +366,8 @@ section{
 .skills{
     max-width: 400px;
     margin: 0 auto;
+    background-color: var(--clr-dark-trans);
+    margin-bottom: 2em;
 }
 
 @media (min-width: 800px) {
@@ -448,7 +467,7 @@ section{
     top: 45%;
     left: 5%;
     right: 5%;
-    background-color: rgba(48,48,48,0.7);
+    background-color: var(--clr-light-trans);
     
 }
 
