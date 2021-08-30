@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pokémon Generation</title>
+        <title>Sneakers</title>
 
         <!-- Normalize will work with all browsers -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
@@ -27,14 +27,12 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <section class="intro" id="home">
             <h1 class="section_title section_title-intro-alt">
-                Pokémon Generation
+                 Sneaker Stocks 
             </h1>
             <p class="section_subtitle section_subtitle-intro">
-                creation and categorization
+                Buying, Selling, Trading
             </p>
-            <img img src="src/pokemon_square.png" class="intro_img" alt="picture of Liam smiling">
+            <img img src="src/snkrs_square.png" class="intro_img" alt="picture of Liam smiling">
         </section> <!-- /section -->
-        
-        <script src="js/index.js"></script>
     </body>
 </html>
