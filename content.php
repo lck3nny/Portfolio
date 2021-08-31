@@ -14,27 +14,30 @@
     $my_name = "Liam Kenny";
     $my_tagline = "Developer";
 
-    $my_skills = ["Web / App Development", "Data and Analytics", "Machine Learning"];
+    $my_skills = ["Software Development", "Data and Analytics", "Machine Learning"];
 
-    $my_skills_bodys =      ["Building <b>Web</b> and <b>Mobile</b> apps is a hugely <u>rewarding</u> process. With instantaneous visual feedback
-                            and a tangable results, these projects have shaped my programming and <u>motivated</u> me
+    $my_skills_bodys =      ["Building Web and Mobile apps is a hugely <span class='key-word'>rewarding</span> process. With instantaneous visual feedback
+                            and a tangable results, these projects have shaped my programming and <span class='key-word'>motivated</span> me
                             towards bigger and more challenging endeavours. I have experience programming in multiple
-                            frameworks including: <b>SpringMVC</b>, <b>Ruby on Rails</b> and <b>Android Studio</b> utilising <b>Java</b>, 
-                            <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>PHP</b> and <b>XML</b> to create responsive, intuitive and stable builds.", 
+                            frameworks including: <span class='key-word'><i>SpringMVC</i></span>, <span class='key-word'><i>Ruby on Rails</i></span> and 
+                            <span class='key-word'><i>Android Studio</i></span> utilising <span class='key-word'>Java</span>, 
+                            <span class='key-word'> HTML</span>, <span class='key-word'> CSS</span>, <span class='key-word'> JavaScript</span>,
+                            <span class='key-word'> PHP</span> and <span class='key-word'> XML</span> to create responsive, intuitive and stable builds.", 
 
-                            "Data requires <b>security</b>; ensuring safe, effective
+                            "Data requires <span class='key-word'>security</span>; ensuring safe, effective
                             and appropriate storage and processing. It has never been more important to understand
-                            the risks and rewards that come with this. <b>Python</b> tools such as <b>Pandas</b> and <b>MatPlotLib</b> have
-                            allowed me to comprehend complex and confusing datasets. <b>Linux</b> networking tools helped me to
-                            better implement network security. <b>Risk Analysis</b> has given new insight into mitigating
+                            the risks and rewards that come with this. <span class='key-word'><i>Python</i></span> tools such as <span class='key-word'><i>Pandas</i></span> 
+                            and <span class='key-word'><i>MatPlotLib</i></span> have
+                            allowed me to comprehend complex and confusing datasets. <span class='key-word'><i>Linux</i></span> networking tools helped me to
+                            better implement network security. <span class='key-word'>Risk Analysis</span> has given new insight into mitigating
                             data breaches which we see ever more frequently.",   
 
-                            "<b>Machine Learning</b> and <b>AI</b> have contributed to some of the <u>most
-                            exciting</u> breakthroughs in my lifetime. Being able to utalise these complex algorithms to
-                            create new meaning from data has <u>driven</u> me to become the programmer I am today. My experience
-                            with Machine Learning includes: <b>Neural Networks</b> (<i>MLP</i>, <i>CNN</i>, <i>GAN</i>, <i>LSTM</i>), 
-                            <b>Computational Intelligence</b> 
-                            (<i>Evolutionary Algorithms</i>, <i>Swarm Intelligence</i>) and <b>Reinforcement Learning</b>, among others."];
+                            "Machine Learning and AI have contributed to some of the <span class='key-word'> most
+                            exciting</span> breakthroughs in my lifetime. Being able to utalise these complex algorithms to
+                            create new meaning from data has <span class='key-word'> driven</span> me to become the programmer I am today. My experience
+                            with Machine Learning includes: <span class='key-word'> <i>Neural Networks</i>  (MLP, CNN, GAN, LSTM) </span>, 
+                            <span class='key-word'><i>Computational Intelligence</i> 
+                            (Evolutionary Algorithms, Swarm Intelligence) </span> and <span class='key-word'><i>Reinforcement Learning</i></span>, among others."];
 
     $about_me_tagline = "I am a Developer based out of Whistler, BC";
 

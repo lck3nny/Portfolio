@@ -47,18 +47,18 @@
             <div class="skills">
 
                 <div class="skill">
-                    <h3><?php echo $my_skills[0];?></h3>
-                    <p><?php echo $my_skills_bodys[0];?></p>
+                    <h3 class="skill-head"><?php echo $my_skills[0];?></h3>
+                    <p class="skill-body"><?php echo $my_skills_bodys[0];?></p>
                 </div> <!-- / skill -->
 
                 <div class="skill">
-                    <h3><?php echo $my_skills[1];?></h3>
-                    <p><?php echo $my_skills_bodys[1];?></p>
+                    <h3 class="skill-head"><?php echo $my_skills[1];?></h3>
+                    <p class="skill-body"><?php echo $my_skills_bodys[1];?></p>
                 </div> <!-- / skill -->
 
                 <div class="skill">
-                    <h3><?php echo $my_skills[2];?></h3>
-                    <p><?php echo $my_skills_bodys[2];?></p>
+                    <h3 class="skill-head"><?php echo $my_skills[2];?></h3>
+                    <p class="skill-body"><?php echo $my_skills_bodys[2];?></p>
                 </div> <!-- / skill -->
 
             </div> <!-- / skills -->
