@@ -34,5 +34,7 @@
             </p>
             <img img src="src/snkrs_square.png" class="intro_img" alt="picture of Liam smiling">
         </section> <!-- /section -->
+
+        <script src="js/index.js"></script>
     </body>
 </html>

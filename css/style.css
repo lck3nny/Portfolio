@@ -366,7 +366,7 @@ section{
     margin: 0 auto;
     background-color: var(--clr-dark-trans);
     margin-bottom: 2em;
-    padding-top: 1em;
+    padding: 1em 1em 0em 1em;
 }
 
 @media (min-width: 800px) {

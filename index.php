@@ -62,7 +62,7 @@
                 </div> <!-- / skill -->
 
             </div> <!-- / skills -->
-            <a href="#work" class="btn">My Projects</a>
+            <a href="#projects" class="btn">My Projects</a>
 
         </section>
 
