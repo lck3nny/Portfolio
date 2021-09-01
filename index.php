@@ -36,7 +36,7 @@
                     echo $my_tagline;
                 ?>
             </p>
-            <img img src="src/snowy_liam_square.png" class="intro_img" alt="picture of Liam smiling">
+            <img img src="img/snowy_liam_square.png" class="intro_img" alt="picture of Liam smiling">
         </section> <!-- /section -->
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -78,7 +78,7 @@
                 <p><?php echo $about_me_bodys[1];?></p>
             </div>
 
-            <img src="src/snowy_liam.png" alt="picture of Liam smiling" class="about-me_img">
+            <img src="img/snowy_liam.png" alt="picture of Liam smiling" class="about-me_img">
 
 
         </section>
@@ -94,37 +94,37 @@
                 <!-- portfolio item 1 -->
                 <a href="avalanche.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[0];?></div>
-                    <img src="src/avalanche_square_light.png" alt="" class="portfolio_img" >
+                    <img src="img/avalanche_square_light.png" alt="" class="portfolio_img" >
                 </a>
 
                 <!-- portfolio item 2 -->
                 <a href="pokemon.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[1];?></div>
-                    <img src="src/pokemon_square_2.png" alt="" class="portfolio_img">
+                    <img src="img/pokemon_square_2.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 3 -->
                 <a href="#" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[2];?></div>
-                    <img src="src/surrey_square.png" alt="" class="portfolio_img">
+                    <img src="img/surrey_square.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 4 -->
                 <a href="snowsports.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[3];?></div>
-                    <img src="src/susnow_square.png" alt="" class="portfolio_img">
+                    <img src="img/susnow_square.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 5 -->
                 <a href="#" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[4];?></div>
-                    <img src="src/security_square.png" alt="" class="portfolio_img">
+                    <img src="img/security_square.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 6 -->
                 <a href="snkrs.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[5];?></div>
-                    <img src="src/snkrs_square.png" alt="" class="portfolio_img">
+                    <img src="img/snkrs_square.png" alt="" class="portfolio_img">
                 </a>
                 
             </div>    

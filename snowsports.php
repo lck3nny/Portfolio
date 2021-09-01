@@ -32,7 +32,7 @@
             <p class="section_subtitle section_subtitle-intro">
                 Freestyle Captain, Medalist
             </p>
-            <img img src="src/susnow_square.png" class="intro_img" alt="picture of Liam smiling">
+            <img img src="img/susnow_square.png" class="intro_img" alt="picture of Liam smiling">
         </section> <!-- /section -->
 
         <script src="js/index.js"></script>

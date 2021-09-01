@@ -32,7 +32,7 @@
             <p class="section_subtitle section_subtitle-intro">
                 with Machine Learning
             </p>
-            <img img src="src/avalanche_square_light.png" class="intro_img" alt="picture of Liam smiling">
+            <img img src="img/avalanche_square_light.png" class="intro_img" alt="picture of Liam smiling">
         </section> <!-- /section -->
 
         <script src="js/index.js"></script>

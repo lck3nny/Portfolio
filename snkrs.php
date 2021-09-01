@@ -32,7 +32,7 @@
             <p class="section_subtitle section_subtitle-intro">
                 Buying, Selling, Trading
             </p>
-            <img img src="src/snkrs_square.png" class="intro_img" alt="picture of Liam smiling">
+            <img img src="img/snkrs_square.png" class="intro_img" alt="picture of Liam smiling">
         </section> <!-- /section -->
 
         <script src="js/index.js"></script>

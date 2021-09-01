@@ -24,6 +24,7 @@
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
+    --fs-h4: 1.2rem;
     --fs-body: 1rem;
     --fs-small: 1rem;
     --fs-btn: 0.8rem;
@@ -434,6 +435,8 @@ section{
 
 .about-me_img{
     box-shadow: var(--box-shaddow);
+   
+
 }
 
 
@@ -441,7 +444,7 @@ section{
 @media(min-width: 600px){
     .about-me{
         display: grid;
-        grid-template-columns: 1fr 200px;
+        grid-template-columns: 1fr 300px;
         grid-template-areas: "title img"
                             "subtitle img"
                             "text img";
@@ -459,13 +462,16 @@ section{
         left: -2em;
         width: calc(100% + 4em);
         padding-left: 2em;
-        padding-right: calc(200px + 3em);
+        padding-right: 17em;
+        font-size: var(--fs-h4);
     }
 
     .about-me_img{
         grid-area: img;
         position: relative;
         z-index: 2;
+        padding-right: 5em;
+        min-width: 25em;
     }
 }
 
