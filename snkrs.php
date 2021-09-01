@@ -35,10 +35,33 @@
             <img img src="img/snkrs_square.png" class="intro_img" alt="ow_blazer_vanilla">
         </section> <!-- /section -->
 
-        <section>
-            <h2>Profit vs Loss</h2>
-            <img img src="files/sneaker_stocks1.png" class="intro_img" alt="graph of sneaker profit">
+
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <!-- Depop -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+        <section class="depop-shop" id="depop">
+            <h2 class="section_title section_title-snkrs">My Depop</h2>
+            <p class="section_subtitle section_subtitle_snkrs">This is where I sell my items!</p>
+            <img img src="img/depop.png" class="depop_img" alt="screenshot of depop">
         </section>
+
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <!-- Profits -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+        <section class="profit-loss" id="profit">
+            <h2 class="section_title section_title-snkrs">Profit vs Loss</h2>
+            <p class="section_subtitle section_subtitle_snkrs">Hello there, here is some information about my sneakers</p>
+            <img img src="files/sneaker_stocks1.jpg" class="snkrs_stocks_img" alt="graph of sneaker profit">
+        </section>
+
+        
+
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <!-- Footer Import -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <?php include "footer.html";?>
 
         <script src="js/index.js"></script>
     </body>

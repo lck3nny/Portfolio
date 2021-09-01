@@ -35,6 +35,11 @@
             <img img src="img/susnow_square.png" class="intro_img" alt="picture of Liam smiling">
         </section> <!-- /section -->
 
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <!-- Footer Import -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <?php include "footer.html";?>
+
         <script src="js/index.js"></script>
     </body>
 </html>

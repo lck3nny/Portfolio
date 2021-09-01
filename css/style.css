@@ -536,6 +536,24 @@ section{
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* SNKRS */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.section_title-snkrs{
+    text-align: center;
+}
+
+.section_subtitle_snkrs{
+    text-align: center;
+}
+.snkrs_stocks_img{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    padding: 0em 1em 0em 1em;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Footer */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
