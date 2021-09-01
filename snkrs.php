@@ -32,8 +32,13 @@
             <p class="section_subtitle section_subtitle-intro">
                 Buying, Selling, Trading
             </p>
-            <img img src="img/snkrs_square.png" class="intro_img" alt="picture of Liam smiling">
+            <img img src="img/snkrs_square.png" class="intro_img" alt="ow_blazer_vanilla">
         </section> <!-- /section -->
+
+        <section>
+            <h2>Profit vs Loss</h2>
+            <img img src="files/sneaker_stocks1.png" class="intro_img" alt="graph of sneaker profit">
+        </section>
 
         <script src="js/index.js"></script>
     </body>
