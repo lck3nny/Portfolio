@@ -18,6 +18,7 @@
     --clr-darker: #1f1f1f;
     --clr-accent: #8CE5CF;
 
+    --clr-v-light-trans: rgba(48, 48, 48, 0.4);
     --clr-light-trans: rgba(48, 48, 48, 0.7);
     --clr-dark-trans: rgba(29, 29, 29, 0.7);
 
@@ -343,7 +344,7 @@ section{
 .my-skills{
      background-color: var(--clr-dark);
      color: var(--clr-light);
-     background-image: url(../src/macbook_vdark.png);
+     background-image: url(../img/macbook_vdark.png);
      background-size: cover;
      text-align: center;
      max-height: max-content;
@@ -355,19 +356,6 @@ section{
     position: relative;
     padding-bottom: 1em;
 }
-
-/*
-.section_title-skills::after{
-    content: '';
-    display: block;
-    width: 5em;
-    height: 3px;
-    margin: 0.2em auto 1em;
-    background-color: var(--clr-light);
-    opacity: 0.4;
-
-}
-*/
 
 
 .skills{
@@ -543,15 +531,124 @@ section{
     text-align: center;
 }
 
-.section_subtitle_snkrs{
-    text-align: center;
+.my-snkrs-skills,
+.profit-loss,
+.depop-shop{
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
+
+/* How it Works */
+
+.my-snkrs-skills{
+    background-image: url(../img/snkrs_background.jpg);
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    background-size: cover;
+    text-align: center;
+    max-height: max-content;
+    background-position: center;
+   
+}
+
+.section_snkrs-skills{
+    color: var(--clr-light);
+    position: relative;
+    top: 0;
+    padding-bottom: 1em;
+}
+
+/* Depop */
+
+.section_subtitle_depop{
+    text-align: center;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-reg);
+    color: var(--clr-dark);
+    padding: 0.3em;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+    background-color: var(--clr-accent);
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.depop_body{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-small);
+}
+
+.depop_body::after{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: var(--clr-dark);
+    opacity: 0.4;
+}
+
+/* Profit */
+
+.profit-loss{
+    background-color: var(--clr-dark);
+    color: var(--clr-light)
+}
+
+.section_subtitle_profit{
+    text-align: center;
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-reg);
+    font-size: var(--fs-h4);
+    color: var(--clr-accent);
+    padding: 0.3em;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+    background-color: var(--clr-dark-trans);
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.profit_body{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: var(--ff-primary);
+}
+
+
+.profit_body::after{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: var(--clr-light);
+    opacity: 0.4;
+}
+
 .snkrs_stocks_img{
     width: 100%;
     margin: 0 auto;
     margin-bottom: 2em;
     padding: 0em 1em 0em 1em;
 }
+
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Footer */

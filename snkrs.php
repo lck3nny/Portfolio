@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <?php include "content.php";?>
         <title>Sneakers</title>
 
         <!-- Normalize will work with all browsers -->
@@ -37,13 +38,45 @@
 
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <!-- How It Works -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+       
+        <section class="my-snkrs-skills" id="snkrs-skills">
+            <h2 class="section_title section_snkrs-skills">How It Works</h2>
+            <div class="skills">
+
+                <div class="skill">
+                    <h3 class="skill-head"><?php echo $snkrs_explained[0]?></h3>
+                    <p class="skill-body"><?php echo $snkrs_explained_body[0]?></p>
+                </div> <!-- / skill -->
+
+                <div class="skill">
+                    <h3 class="skill-head"><?php echo $snkrs_explained[1]?></h3>
+                    <p class="skill-body"><?php echo $snkrs_explained_body[1]?></p>
+                </div> <!-- / skill -->
+
+                <div class="skill">
+                    <h3 class="skill-head"><?php echo $snkrs_explained[2]?></h3>
+                    <p class="skill-body"><?php echo $snkrs_explained_body[2]?></p>
+                </div> <!-- / skill -->
+
+            </div> <!-- / skills -->
+            
+
+        </section>
+
+
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Depop -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
         <section class="depop-shop" id="depop">
             <h2 class="section_title section_title-snkrs">My Depop</h2>
-            <p class="section_subtitle section_subtitle_snkrs">This is where I sell my items!</p>
-            <img img src="img/depop.png" class="depop_img" alt="screenshot of depop">
+            <h3 class="section_subtitle section_subtitle_depop"><?php echo $snkrs_depop_subtitle?></h3>
+            <p class="depop_body"><?php echo $snkrs_depop_body?></p>
+            <a href="https://www.depop.com/liamk3nny/">
+                <img img src="img/depop.png" class="depop_img" alt="screenshot of depop">
+            </a>
         </section>
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -52,8 +85,10 @@
 
         <section class="profit-loss" id="profit">
             <h2 class="section_title section_title-snkrs">Profit vs Loss</h2>
-            <p class="section_subtitle section_subtitle_snkrs">Hello there, here is some information about my sneakers</p>
-            <img img src="files/sneaker_stocks1.jpg" class="snkrs_stocks_img" alt="graph of sneaker profit">
+            <h3 class="section_subtitle section_subtitle_profit"><?php echo $snkrs_profit_subtitle?></h3>
+            <p class="profit_body"><?php echo $snkrs_profit_body?></p>
+            <p class="profit_body"><?php echo $snkrs_profit_body_2?></p>
+            <img img src="img/sneaker_stocks.jpg" class="snkrs_stocks_img" alt="graph of sneaker profit">
         </section>
 
         
