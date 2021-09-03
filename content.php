@@ -90,6 +90,11 @@
                             accuracy, fresh data is fed into the network. This time, predictions can be used on real-world examples,
                             providing useful insight to users that would be much too complicated for a human to calculate. "];
     
+    
+    $avi_prediction_tagline = "The Science behind the predicting a catastrophe";
+    $avi_vairables_subtitle = "Visualising the data - Take a step back";
+    $avi_architecture_subtitle = "The structure of my network";
+    $avi_results_subtitle = "Here's how it went";
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Sneakers page content
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

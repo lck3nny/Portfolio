@@ -106,7 +106,7 @@
                 <!-- portfolio item 3 -->
                 <a href="#" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[2];?></div>
-                    <img src="img/surrey_square.png" alt="" class="portfolio_img">
+                    <img src="img/stag_square.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 4 -->
