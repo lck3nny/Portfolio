@@ -95,6 +95,12 @@
     $avi_vairables_subtitle = "Visualising the data - Take a step back";
     $avi_architecture_subtitle = "The structure of my network";
     $avi_results_subtitle = "Here's how it went";
+
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    // Pokemon page content
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    $pokemon_how_subtitle = ["Generative Adversarial Netowrk", "Convolutonal Neural Network"];
+    $pokemon_results_subtitle = "We made a brand new Pokémon!";
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Sneakers page content
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

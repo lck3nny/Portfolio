@@ -728,6 +728,34 @@ section{
     
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Pokémon */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.my-pokemon-intro{
+    background-image: url(../img/noise.jpg);
+}
+
+@media(min-width: 800px){
+    .poke-cols{
+        columns: 2;
+        column-gap: 1em;
+        column-rule-style: solid;
+        column-rule-width: 2px;
+        column-rule-color: var(--clr-accent);
+    }
+}
+
+.gan_img,
+.cnn_img{
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.cnn_img{
+    max-height: 200px;
+}
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
