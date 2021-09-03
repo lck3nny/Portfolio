@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <?php include "content.php"?>
         <title>Avalanche Prdiction</title>
 
         <!-- Normalize will work with all browsers -->
@@ -35,6 +36,36 @@
             <img img src="img/avalanche_square_light.png" class="intro_img" alt="picture of Liam smiling">
         </section> <!-- /section -->
 
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <!-- Networks -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+        <section class="my-project-intro my-avi-intro" id="avi-intro">
+            <h2 class="section_project-title section_project-title-light">How It Works</h2>
+            <div class="project-descs">
+
+                <div class="project-desc">
+                    <h3 class="desc-head"><?php echo $avi_explained[0]?></h3>
+                    <p class="desc-body"><?php echo $avi_explained_body[0]?></p>
+                </div> <!-- / project-desc -->
+
+                <div class="project-desc">
+                    <h3 class="desc-head"><?php echo $avi_explained[1]?></h3>
+                    <p class="desc-body"><?php echo $avi_explained_body[1]?></p>
+                </div> <!-- / project-desc -->
+
+                <div class="project-desc">
+                    <h3 class="desc-head"><?php echo $avi_explained[2]?></h3>
+                    <p class="desc-body"><?php echo $avi_explained_body[2]?></p>
+                </div> <!-- / project-desc -->
+
+            </div> <!-- / project-descs -->
+        
+        </section>
+
+       
+
+        
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Footer Import -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->

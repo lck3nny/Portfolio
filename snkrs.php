@@ -41,26 +41,26 @@
         <!-- How It Works -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
        
-        <section class="my-snkrs-skills" id="snkrs-skills">
-            <h2 class="section_title section_snkrs-skills">How It Works</h2>
-            <div class="skills">
+        <section class="my-project-intro my-snkrs-intro" id="snkrs-intro">
+            <h2 class="section_project-title section_project-title-light">How It Works</h2>
+            <div class="project-descs">
 
-                <div class="skill">
-                    <h3 class="skill-head"><?php echo $snkrs_explained[0]?></h3>
-                    <p class="skill-body"><?php echo $snkrs_explained_body[0]?></p>
-                </div> <!-- / skill -->
+                <div class="project-desc">
+                    <h3 class="desc-head"><?php echo $snkrs_explained[0]?></h3>
+                    <p class="desc-body"><?php echo $snkrs_explained_body[0]?></p>
+                </div> <!-- / project-desc -->
 
-                <div class="skill">
-                    <h3 class="skill-head"><?php echo $snkrs_explained[1]?></h3>
-                    <p class="skill-body"><?php echo $snkrs_explained_body[1]?></p>
-                </div> <!-- / skill -->
+                <div class="project-desc">
+                    <h3 class="desc-head"><?php echo $snkrs_explained[1]?></h3>
+                    <p class="desc-body"><?php echo $snkrs_explained_body[1]?></p>
+                </div> <!-- / project-desc -->
 
-                <div class="skill">
-                    <h3 class="skill-head"><?php echo $snkrs_explained[2]?></h3>
-                    <p class="skill-body"><?php echo $snkrs_explained_body[2]?></p>
-                </div> <!-- / skill -->
+                <div class="project-desc">
+                    <h3 class="desc-head"><?php echo $snkrs_explained[2]?></h3>
+                    <p class="desc-body"><?php echo $snkrs_explained_body[2]?></p>
+                </div> <!-- / project-desc -->
 
-            </div> <!-- / skills -->
+            </div> <!-- / project-descs -->
             
 
         </section>
@@ -70,9 +70,9 @@
         <!-- Depop -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <section class="depop-shop" id="depop">
-            <h2 class="section_title section_title-snkrs">My Depop</h2>
-            <h3 class="section_subtitle section_subtitle_depop"><?php echo $snkrs_depop_subtitle?></h3>
+        <section class="my-project-mid" id="depop">
+            <h2 class="section_project-title section_project-title-dark">My Depop</h2>
+            <h3 class="section_subtitle section_subtitle_mid"><?php echo $snkrs_depop_subtitle?></h3>
             <p class="depop_body"><?php echo $snkrs_depop_body?></p>
             <a href="https://www.depop.com/liamk3nny/">
                 <img img src="img/depop.png" class="depop_img" alt="screenshot of depop">
@@ -83,9 +83,9 @@
         <!-- Profits -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <section class="profit-loss" id="profit">
-            <h2 class="section_title section_title-snkrs">Profit vs Loss</h2>
-            <h3 class="section_subtitle section_subtitle_profit"><?php echo $snkrs_profit_subtitle?></h3>
+        <section class="my-project-end" id="profit">
+            <h2 class="section_project-title section_project-title-light">Profit vs Loss</h2>
+            <h3 class="section_subtitle section_subtitle_end"><?php echo $snkrs_profit_subtitle?></h3>
             <p class="profit_body"><?php echo $snkrs_profit_body?></p>
             <p class="profit_body"><?php echo $snkrs_profit_body_2?></p>
             <img img src="img/sneaker_stocks.jpg" class="snkrs_stocks_img" alt="graph of sneaker profit">

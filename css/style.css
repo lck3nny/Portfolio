@@ -47,10 +47,6 @@
     }
 }
 
-
-
-
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* General Styling */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -427,8 +423,6 @@ section{
 
 }
 
-
-
 @media(min-width: 600px){
     .about-me{
         display: grid;
@@ -464,7 +458,7 @@ section{
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* My projects */
+/* Portfolio */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .my-projects{
@@ -524,49 +518,66 @@ section{
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* SNKRS */
+/* My Projects */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.section_title-snkrs{
-    text-align: center;
-}
-
-.my-snkrs-skills,
-.profit-loss,
-.depop-shop{
+/* Sections */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.my-project-intro{
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    background-size: cover;
+    max-height: max-content;
+    background-position: center;
+   
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
-/* How it Works */
+.my-project-mid{
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    max-height: max-content;
+   
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 
-.my-snkrs-skills{
-    background-image: url(../img/snkrs_background.jpg);
+.my-project-end{
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    background-size: cover;
-    text-align: center;
     max-height: max-content;
-    background-position: center;
    
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
-.section_snkrs-skills{
-    color: var(--clr-light);
+/* Title */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.section_project-title{
     position: relative;
     top: 0;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
+    text-align: center;
 }
 
-/* Depop */
+.section_project-title-light{
+    color: var(--clr-light);
+}
 
-.section_subtitle_depop{
+.section_project-title-dark{
+    color: var(--clr-dark);
+}
+
+/* Subtitle */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.section_subtitle_mid{
     text-align: center;
     font-family: var(--ff-primary);
     font-weight: var(--fw-reg);
     color: var(--clr-dark);
     padding: 0.3em;
-    margin-top: 0.8em;
+   
     margin-bottom: 1em;
     background-color: var(--clr-accent);
     width: 50%;
@@ -574,7 +585,91 @@ section{
     margin-right: 25%;
 }
 
+.section_subtitle_end{
+    text-align: center;
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-reg);
+    font-size: var(--fs-h4);
+    color: var(--clr-accent);
+    padding: 0.3em;
+   
+    margin-bottom: 1em;
+    background-color: var(--clr-dark-trans);
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
+/* Body */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.project-descs{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: var(--clr-dark-trans);
+    margin-bottom: 2em;
+    padding: 1em 1em 0em 1em;
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    .project-descs {
+        display: flex;
+        max-width: 1000px;
+        margin-left:  auto;
+        margin-right: auto;
+    }
+
+    .project-desc + .project-desc{
+        margin-left: 3em;
+    }
+}
+
+.desc-head{
+    color: var(--clr-accent);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    text-transform: uppercase;
+
+}
+
+.desc-head::after{
+    content: '';
+    display: block;
+    width: inherit;
+    height: 1px;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    
+    background-color: var(--clr-light);
+    opacity: 0.4;
+}
+
+.desc-body{
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-small);
+    letter-spacing: 0em;
+    word-spacing: 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Avalanche */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.my-avi-intro{
+    background-image: url(../img/network3.jpg);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* SNKRS */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.my-snkrs-intro{
+    background-image: url(../img/snkrs_background.jpg);
+}
+
+
+/* Depop */ 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .depop_body{
     text-align: center;
     width: 70%;
@@ -598,27 +693,7 @@ section{
 }
 
 /* Profit */
-
-.profit-loss{
-    background-color: var(--clr-dark);
-    color: var(--clr-light)
-}
-
-.section_subtitle_profit{
-    text-align: center;
-    font-family: var(--ff-secondary);
-    font-weight: var(--fw-reg);
-    font-size: var(--fs-h4);
-    color: var(--clr-accent);
-    padding: 0.3em;
-    margin-top: 0.8em;
-    margin-bottom: 1em;
-    background-color: var(--clr-dark-trans);
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .profit_body{
     text-align: center;
     width: 70%;

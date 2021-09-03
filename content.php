@@ -55,6 +55,42 @@
     $my_projects = ["Avalanche Prediction", "Pokémon Generator", "Surrey Stack", "Surrey Snowsports", "Computer Security", "SNKRS"];
     
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    // Avalanche page content
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    $avi_explained =    ["Data",
+                        "Network",
+                        "Prediction"];
+
+    $avi_explained_body =   ["As with any learning process, data is required to provide example and context to a scenario. In the
+                            case of Avalanche Prediction, weather data was combined with avalanche data to create a novel dataset. 
+                            First comes clearning and repairing. As many datasets are created without supervision, there are often
+                            many missing, incomplete or otherwise corrupted values. Data First-Aid is the first and one of the most
+                            important parts of any machine learning process.
+                            It is important to remove data which is not useful or confusing to the network as this will only 
+                            obfuscate the learning process, while retaining as much useful data as possible. Furthermore, many
+                            examples of data require context, for example Temperature. Variations +/- of 0° are much more significant 
+                            than those firmly in the + or - scale. Data normalisation is a technique used to adapt the way data is
+                            displayed to the network. Finding the apropriate technique to normalise each variable is a very important
+                            process and, done wrong, can lead to an inability to learn from the data.",
+
+                            "There are many types of Machine Learning techniques and Neural Netowrks make up only a subsection. 
+                            For the problem of predicting avalanches, the effects of weather can perpetuate weaknesses in the snow
+                            structure for weeks or even months. Therefore, it was important to utalise a network which considered 
+                            the long term effects of data. Recurrant Neural Networks (RNNs) allow data to be passed forward, from 
+                            one prediction to another. This prevents data from viewed ",
+
+                            "Understanding patterns in data allows us to make predictions about how future data may behave. Allowing 
+                            the network to 'train' is a process by which nodes within the network adapt to particular input patterns. 
+                            When similar patterns are fed in, the network's goal is to recognise important features and categorise
+                            the input data appropriately. As the network trains, it may predict corrently or incorrectly. The success
+                            of each prediction is fed back into the network and provides feedback, directly impacting how each node 
+                            is configured. Just like a person, this learning process can be confusing and take a lot of examples
+                            to successfully learn. Once training is complete and the network is able to predict at a satisfactory
+                            accuracy, fresh data is fed into the network. This time, predictions can be used on real-world examples,
+                            providing useful insight to users that would be much too complicated for a human to calculate. "];
+    
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Sneakers page content
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
