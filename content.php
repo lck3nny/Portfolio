@@ -7,11 +7,13 @@
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     $nav_categories = ["Home", "My Skills", "About Me", "My Projects"];
 
+
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Home page content
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     
     $my_name = "Liam Kenny";
+    $my_age = floor((time() - strtotime('1995-10-11')) / 31556926);
     $my_tagline = "Developer";
 
     $my_skills = ["Software Development", "Data and Analytics", "Machine Learning"];
@@ -40,8 +42,7 @@
                             (Evolutionary Algorithms, Swarm Intelligence) </span> and <span class='key-word'><i>Reinforcement Learning</i></span>, among others."];
 
     $about_me_tagline = "I am a Developer based out of Whistler, BC";
-
-    $about_me_bodys =   ["I am an enthusiastic 25 year old with a passion for technology and the outdoors. 
+    $about_me_bodys =   ["I am an enthusiastic " . $my_age ." year old with a passion for technology and the outdoors. 
                         After graduating from The University of Surrey, UK, I followed my childhood dream 
                         of moving to Whistler, BC. Having spent two years working through the pandemic, I 
                         am ready to start my next adventure.", 
@@ -52,7 +53,7 @@
                         climate data to explore solutions to our dying planet."];
     
     $projects_tagline = "Here's what I've been working on";
-    $my_projects = ["Avalanche Prediction", "Pokémon Generator", "Surrey Stack", "Surrey Snowsports", "Computer Security", "SNKRS"];
+    $my_projects = ["Avalanche Prediction", "Pokémon Generator", "Photography", "Surrey Snowsports", "SNKRS", "Let's Connect"];
     
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Avalanche page content

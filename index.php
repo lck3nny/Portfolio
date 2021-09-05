@@ -21,7 +21,7 @@
     <body>
         <!-- Header Import -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <?php include "header.html";?>
+        <?php include "header.php";?>
         
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -100,11 +100,12 @@
                 <!-- portfolio item 2 -->
                 <a href="pokemon.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[1];?></div>
-                    <img src="img/pokemon_square_2.png" alt="" class="portfolio_img">
+                    <img src="img/pokemon_square3.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 3 -->
-                <a href="#" class="portfolio_item">
+
+                <a href="photo.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[2];?></div>
                     <img src="img/stag_square.jpg" alt="" class="portfolio_img">
                 </a>
@@ -116,16 +117,18 @@
                 </a>
 
                 <!-- portfolio item 5 -->
-                <a href="#" class="portfolio_item">
+                <a href="snkrs.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[4];?></div>
-                    <img src="img/security_square.png" alt="" class="portfolio_img">
+                    <img src="img/snkrs_square.png" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 6 -->
-                <a href="snkrs.php" class="portfolio_item">
+                <a href="connect.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[5];?></div>
-                    <img src="img/snkrs_square.png" alt="" class="portfolio_img">
+                    <img src="img/developer.png" alt="" class="portfolio_img">
                 </a>
+
+                
                 
             </div>    
         </section>

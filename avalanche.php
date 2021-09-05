@@ -21,7 +21,7 @@
     <body>
         <!-- Header Import -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <?php include "header.html";?>
+        <?php include "header.php";?>
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Introduction -->
@@ -83,7 +83,7 @@
                 <p><?php echo $about_me_bodys[0];?></p>
             </div>
             <a href="http://freeride-verbier.com/blog/avalanche-risk-4-verbier-safety-ski-tips/" class="avi_img">
-                <img src="img/avalanche-model.png" alt="danger-scale" >
+                <img src="img/avalanche-model.jpg" alt="danger-scale" >
             </a>
 
         </section>
