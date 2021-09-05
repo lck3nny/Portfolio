@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <?php include "content.php";?>
-        <title>Sneakers</title>
+        <title>Let's Connect</title>
 
         <!-- Normalize will work with all browsers -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
@@ -28,13 +28,19 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <section class="intro" id="home">
             <h1 class="section_title section_title-intro-alt">
-                 Sneaker Stocks 
+                 Let's Connect!
             </h1>
             <p class="section_subtitle section_subtitle-intro">
-                Buying, Selling, Trading
+                Want to collaborate?
             </p>
-            <img img src="img/snkrs_square.png" class="intro_img" alt="ow_blazer_vanilla">
+            <img img src="img/developer.png" class="intro_img" alt="ow_blazer_vanilla">
         </section> <!-- /section -->
 
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <!-- Footer Import -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <?php include "footer.html";?>
+
+        <script src="js/index.js"></script>
     </body>
 </html>

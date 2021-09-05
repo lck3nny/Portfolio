@@ -163,8 +163,18 @@ section{
     padding: lem;
 }
 
+.header-bar{
+    position: fixed;
+    width: 100%;
+    z-index: 1100;
+    height: 30px;
+}
+
 .logo_img{
-    width: 150px;
+    width: 140px;
+    height: 45px;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
 }
 
 /* Nav */
@@ -209,6 +219,7 @@ section{
     color: var(--clr-accent)
 }
 
+
 .nav_toggle{
     padding: 0.5em;
     background: transparent;
@@ -217,7 +228,7 @@ section{
     position: absolute;
     right: 1em;
     top: 1em;
-    z-index: 1000;
+    
 }
 
 

@@ -1,11 +1,14 @@
 <header class="header">
-    <div class ="logo">
-        <?php include "content.php";?>
-        <img src="src/devliam.svg" alt="" class="logo_img">
+    <?php include "content.php";?>
+    <div class="header-bar">
+        <div class ="logo">
+            <img src="img/devliam.svg" alt="" class="logo_img">
+        </div>
+        <button class="nav_toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
     </div>
-    <button class="nav_toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-    </button>
+    
     <nav class="nav">
         <ul class="nav_list">
             <li class="nav_item"><a href="index.php" class="nav_link">Home</a></li>

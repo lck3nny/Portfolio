@@ -28,12 +28,20 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <section class="intro" id="home">
             <h1 class="section_title section_title-intro-alt">
-                 Sneaker Stocks 
+                 Photography
             </h1>
             <p class="section_subtitle section_subtitle-intro">
-                Buying, Selling, Trading
+                Capturing a moment
             </p>
             <img img src="img/snkrs_square.png" class="intro_img" alt="ow_blazer_vanilla">
         </section> <!-- /section -->
+
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <!-- Footer Import -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <?php include "footer.html";?>
+
+        <script src="js/index.js"></script>
     </body>
+
 </html>
