@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php include "content.php"?>
+        <?php include "header.php";?>
         <title>Avalanche Prdiction</title>
 
         <!-- Normalize will work with all browsers -->
@@ -19,9 +19,7 @@
     </head>
 
     <body>
-        <!-- Header Import -->
-        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <?php include "header.php";?>
+        
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Introduction -->
@@ -40,7 +38,7 @@
         <!-- Machine Learning -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <section class="my-project-intro my-avi-intro" id="avi-intro">
+        <section class="my-section my-project-intro my-avi-intro" id="avi-intro">
             <h2 class="section_project-title section_project-title-light">Machine Learning</h2>
             <div class="project-descs">
 
@@ -67,7 +65,7 @@
         <!-- Avalanche Prediction -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <section class="about-avalanches" id="about">
+        <section class="my-section about-avalanches" id="about">
             <h2 class="section_title section_title-about">Avalanche Prediction</h2>
             <p class="section_subtitle section_subtitle-about"><?php echo $avi_prediction_tagline;?></p>
 
@@ -92,7 +90,7 @@
         <!-- Data Visualisation -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <section class="my-project-end" id="variables">
+        <section class="my-section my-project-end" id="variables">
             <h2 class="section_project-title section_project-title-light">Data</h2>
             <h3 class="section_subtitle section_subtitle_end"><?php echo $avi_vairables_subtitle?></h3>
             
@@ -112,7 +110,7 @@
         <!-- Network Architecture -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <section class="my-project-mid" id="architecture">
+        <section class="my-section my-project-mid" id="architecture">
             <h2 class="section_project-title section_project-title-dark">Network Architecture</h2>
             <h3 class="section_subtitle section_subtitle_mid"><?php echo $avi_architecture_subtitle?></h3>
             <p class="depop_body"><?php echo $snkrs_depop_body?></p>
@@ -126,7 +124,7 @@
         <!-- Results -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <section class="my-project-end" id="results">
+        <section class="my-section my-project-end" id="results">
             <h2 class="section_project-title section_project-title-light">Results</h2>
             <h3 class="section_subtitle section_subtitle_end"><?php echo $avi_results_subtitle?></h3>
             
@@ -141,6 +139,5 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <?php include "footer.html";?>
 
-        <script src="js/index.js"></script>
     </body>
 </html>

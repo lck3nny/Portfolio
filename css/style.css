@@ -11,6 +11,7 @@
     --ff-secondary: 'Source Code Pro', monospace;
 
     --fw-reg: 300;
+    --fw-mid: 600;
     --fw-bold: 900;
 
     --clr-light: #fff;
@@ -21,31 +22,22 @@
     --clr-v-light-trans: rgba(48, 48, 48, 0.4);
     --clr-light-trans: rgba(48, 48, 48, 0.7);
     --clr-dark-trans: rgba(29, 29, 29, 0.85);
+    --clr-v-dark-trans: rgba(29, 29, 29, 0.98);
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-h4: 1.2rem;
     --fs-body: 1rem;
-    --fs-small: 1rem;
+    --fs-small: 0.9rem;
+    --fs-xsmall: 0.7rem;
     --fs-btn: 0.8rem;
 
     --box-shaddow: 0.25em 0.25em 0.75em rbga(0,0,0,0.25), 
                     0.125em 0.125em 0.25em rgba(0,0,0,0.15);
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* Default Media Queries  */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-@media (min-width: 1050px) {
-    :root {
-        --fs-h1: 3.6rem;
-        --fs-h2: 2.7rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.2rem;
-    }
-}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* General Styling */
@@ -89,16 +81,16 @@ h2{font-size: var(--fs-h2);}
 h3{font-size: var(--fs-h3);}
 
 .btn {
+    background: var(--clr-accent);
+    font-size: var(--fs-btn);
+    font-weight: var(--fw-bold);
+    color: var(--clr-dark);
     display: inline-block;
     padding: .5em 3.5em;
-    background: var(--clr-accent);
-    color: var(--clr-dark);
+    letter-spacing: 2px;
     text-decoration: none;
     cursor: pointer;
-    font-size: .8rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
 }
 
@@ -107,10 +99,11 @@ h3{font-size: var(--fs-h3);}
 }
 
 
-
 section{
-    padding: 5em 2em;
+    padding: 1.5em 1.5em;
+    
 }
+
 
 .section_title{
     margin: 0;
@@ -118,9 +111,7 @@ section{
 
 .section_title-intro{
     font-weight: var(--fw-reg);  
-    margin-bottom: .25em;  
- 
-    
+    margin-bottom: .25em;     
 }
 
 .section_title-intro-alt{
@@ -154,41 +145,73 @@ section{
     margin-bottom: 2em;
 }
 
+@media (min-width: 880px){
+    .my-section{
+        height: 101vh;
+    }
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Header */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .header{
     display: flex;
     justify-content: space-between;
-    padding: lem;
+    height: 30px;
+    margin-bottom: 2em;
 }
 
 .header-bar{
     position: fixed;
     width: 100%;
     z-index: 1100;
-    height: 30px;
+    height: 4rem;
+    
 }
 
+
 .logo_img{
-    width: 140px;
-    height: 45px;
-    margin-top: 0.3em;
-    margin-left: 0.3em;
+    height: inherit;
+    left: 1.5em;
+    top: 1.5em;
+    margin: 0em 1em;
 }
+
+
+
+/* Tablet Screen Sizes */
+@media (min-width: 880px)  {
+    .logo_img{
+        width: 9vw;
+    }
+}
+
+@media (max-width: 880px){
+    .header-bar{
+        background-color: var(--clr-dark-trans);    
+    }
+
+    .logo_img{
+        width: 100px;
+    }
+}
+
+
 
 /* Nav */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .nav{
     position: fixed;
-    background-color: var(--clr-dark);
+    background-color: var(--clr-v-dark-trans);
     color: var(--clr-light);
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     z-index: 999;
-
+    height: 100vh;
+    padding-top: 4em;
+    padding-bottom: 4em;
     transform: translate(100%);
     transition: transform 250ms cubic-bezier(0.5, 0, 0.5, 1);
 }
@@ -196,16 +219,16 @@ section{
 .nav_list{
     list-style: none;
     display: flex;
-    height: 100vh;
+    height: 80vh;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     margin: 5%;
     padding: 0;
-    
 }
 
 .nav_item{
-    padding-bottom: 6vh;
+    align-items: center;
+    height: 13vh;
 }
 
 .nav_link{
@@ -226,43 +249,31 @@ section{
     border: 0;
     cursor: pointer;
     position: absolute;
-    right: 1em;
-    top: 1em;
+    right: 1.5em;
+    top: 1.5em;
     
-}
-
-
-
-/* Nav Optimization for Different Screen Sizes*/
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-
-@media (min-width: 1200px){
-    .nav-open .nav {
-        transform: translateX(75%);
-    }
-}
-
-@media (min-width: 1000px) and (max-width: 1200px){
-    .nav-open .nav {
-        transform: translateX(70%);
-    }
-}
-
-@media (min-width: 800px) and (max-width: 1000px){
-    .nav-open .nav {
-        transform: translateX(60%);
-    }
-}
-
-@media (max-width: 800px){
-    .nav-open .nav {
-        transform: translateX(55%);
-    }
 }
 
 .nav-open .nav_toggle {
     position: fixed;
+}
+
+
+@media (max-width: 780px){
+    .nav-open .nav {
+        transform: translateX(0%);
+        text-align: center;
+    }
+}
+
+@media (min-width: 780px){
+    .nav-open .nav {
+        transform: translateX(50%);
+    }
+
+    .nav_item{
+        padding-right: 50%;
+    }
 }
 
 /* Hamburger Animation - Navigation Toggle */
@@ -318,7 +329,7 @@ section{
     
 }
 
-@media (min-width: 800px){
+@media (min-width: 780px){
     .intro{
         display: grid;
         width: min-content;
@@ -360,31 +371,31 @@ section{
      background-image: url(../img/macbook_vdark.png);
      background-size: cover;
      text-align: center;
-     max-height: max-content;
      background-position: center;
 }
 
 .section_title-skills{
     color: var(--clr-light);
     position: relative;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 
 .skills{
-    max-width: 400px;
+    width: 80vw;
     margin: 0 auto;
     background-color: var(--clr-dark-trans);
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     padding: 1em 1em 0em 1em;
+    
 }
 
 .skill-head{
     color: var(--clr-accent);
     font-family: var(--ff-primary);
-    font-size: var(--fs-body);
+    font-size: var(--fs-small);
     text-transform: uppercase;
-
+    font-size: var(--fs-body);
 }
 
 .skill-head::after{
@@ -401,22 +412,10 @@ section{
 
 .skill-body{
     font-family: var(--ff-secondary);
-    font-size: var(--fs-small);
+    font-size: 1.4vw;
     letter-spacing: 0em;
     word-spacing: 0;
-}
-
-@media (min-width: 800px) {
-    .skills {
-        display: flex;
-        max-width: 1000px;
-        margin-left:  auto;
-        margin-right: auto;
-    }
-
-    .skill + .skill{
-        margin-left: 3em;
-    }
+    margin: 3vh auto;
 }
 
 .key-word{
@@ -425,25 +424,69 @@ section{
     letter-spacing: 0.1em;
 }
 
+@media (min-width: 880px){
+
+    .my-skills{
+        height: 101vh;
+    }
+
+    .skills {
+        display: flex;
+        margin-left:  auto;
+        margin-right: auto;
+        height: 78vh;
+        overflow: hidden;
+    }
+
+    .skill + .skill{
+        margin-left: 3em;
+    }
+
+    
+}
+
+@media (max-width: 880px){
+    .skill-body{
+        font-size: var(--fs-body);
+    }
+
+    .skill-head{
+        font-size: var(--fs-body);
+    }
+}
+
+@media (min-width: 880px) and (max-width: 1000px){
+    .skill-body{
+        font-size: 1.3vw;
+        padding: 1.2vw 0;
+    }
+}
+
+@media (min-width: 1000px){
+    .skill-body{
+        font-size: 1.2vw;
+        padding: 1.2vw 0;
+    }
+}
+
+
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* About Me */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .about-me{
-    max-width: 1000px;
+    width: 80vw;
     margin: 0 auto;
+    padding: 10vh 0;
 }
 
-.about-me_img{
-    box-shadow: var(--box-shaddow);
-   
 
-}
-
-@media(min-width: 600px){
+@media(min-width: 880px){
     .about-me{
         display: grid;
         grid-template-columns: 1fr 300px;
+        grid-template-rows: 10vh 15vh 50vh;
         grid-template-areas: "title img"
                             "subtitle img"
                             "text img";
@@ -463,6 +506,7 @@ section{
         padding-left: 2em;
         padding-right: 17em;
         font-size: var(--fs-h4);
+        height: 10vh;
     }
 
     .about-me_img{
@@ -472,6 +516,10 @@ section{
         padding-right: 5em;
         min-width: 25em;
     }
+
+    .about-me_body{
+        font-size: var(--fs-h4);
+    }
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -480,16 +528,27 @@ section{
 
 .my-projects{
     background-color: var(--clr-dark);
+
+    background-size: cover;
+    background-position: center;
     color: var(--clr-light);
     text-align: center;
+    width: 100vw;
 }
+
 
 .portfolio{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-left: 5em;
-    margin-right: 5em;
-    
+    grid-template-columns: repeat(auto-fit, minmax(28vh, 1fr));
+    margin: 0 auto;
+}
+
+@media (min-width: 880px){
+    .portfolio{
+        overflow: scroll;
+        max-width: 50vw;
+        max-height: 70vh;
+    }
 }
 
 
@@ -540,11 +599,12 @@ section{
 
 /* Sections */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
 .my-project-intro{
     background-color: var(--clr-dark);
     color: var(--clr-light);
     background-size: cover;
-    max-height: max-content;
     background-position: center;
    
     padding-top: 2em;
@@ -554,7 +614,6 @@ section{
 .my-project-mid{
     background-color: var(--clr-light);
     color: var(--clr-dark);
-    max-height: max-content;
    
     padding-top: 2em;
     padding-bottom: 2em;
@@ -620,7 +679,7 @@ section{
 /* Body */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .project-descs{
-    max-width: 400px;
+    max-width: 80vw;
     margin: 0 auto;
     background-color: var(--clr-dark-trans);
     margin-bottom: 2em;
@@ -628,12 +687,13 @@ section{
     text-align: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 880px) {
     .project-descs {
         display: flex;
-        max-width: 1000px;
         margin-left:  auto;
         margin-right: auto;
+        max-height: 80vh;
+        overflow: scroll;
     }
 
     .project-desc + .project-desc{
@@ -727,6 +787,18 @@ section{
         padding-right: 1em;
         min-width: 25em;
     }
+
+    .avi-pred-body2{
+        text-align: right;
+    }
+    
+    @media(min-width: 1050px){
+        .avi-pred-body2{
+            width: 120%;
+        }
+    }
+
+    
 }
 
 .lstm_img{

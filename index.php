@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php include "content.php";?>
+        <?php include "header.php";?>
         <title><?php echo $my_name;?> Portfolio Website</title>
         
         <!-- Normalize will work with all browsers -->
@@ -19,11 +19,6 @@
     </head>
 
     <body>
-        <!-- Header Import -->
-        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <?php include "header.php";?>
-        
-
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Introduction -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -42,7 +37,7 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- My Skills -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <section class="my-skills" id="skills">
+        <section class="my-section my-skills" id="skills">
             <h2 class="section_title section_title-skills">My Skills</h2>
             <div class="skills">
 
@@ -69,7 +64,7 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- About Me -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <section class="about-me" id="about">
+        <section class="my-section about-me" id="about">
             <h2 class="section_title section_title-about">About Me</h2>
             <p class="section_subtitle section_subtitle-about"><?php echo $about_me_tagline;?></p>
 
@@ -86,7 +81,7 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- My Projects -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <section class="my-projects" id="projects">
+        <section class="my-section my-projects" id="projects">
             <h2 class="section_title section_title-projects">My Projects</h2>
             <p class="section_subtitle section_subtitle-projects"><?php echo $projects_tagline;?></p>
 
@@ -138,6 +133,6 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <?php include "footer.html";?>
 
-        <script src="js/index.js"></script>
+        
     </body>
 </html>

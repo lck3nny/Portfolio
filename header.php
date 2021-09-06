@@ -1,9 +1,9 @@
 <header class="header">
     <?php include "content.php";?>
     <div class="header-bar">
-        <div class ="logo">
-            <img src="img/devliam.svg" alt="" class="logo_img">
-        </div>
+        
+        <img src="img/devliam_acc.svg" alt="" class="logo_img">
+        
         <button class="nav_toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
@@ -20,4 +20,6 @@
             <li class="nav_item"><a href="connect.php" class="nav_link"><?php echo $my_projects[5];?></a></li>
         </ul>
     </nav>
+
+    <script src="js/index.js"></script>
 </header>
