@@ -2,9 +2,8 @@
 
 <header class="header">
     <div class="header-bar">
-        <a href="index.php" class="logo-container">
-            <img src="img/devliam_acc.svg" alt="" class="logo_img">
-        </a>
+        <img src="img/devliam_acc.svg" alt="" class="logo_img">
+        
         
         <button class="nav_toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php include "content.php";?>
+        <?php include "header.php";?>
         <title>Let's Connect</title>
 
         <!-- Normalize will work with all browsers -->
@@ -19,9 +19,6 @@
     </head>
 
     <body>
-        <!-- Header Import -->
-        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <?php include "header.php";?>
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Introduction -->
@@ -37,10 +34,27 @@
         </section> <!-- /section -->
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <!-- Contact Form -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+        <section class="my-section my-project-end" id="contact">
+            <h2 class="section_project-title section_project-title-light">What's Your Idea?</h2>
+            <h3 class="section_subtitle section_subtitle_end"><?php echo $snkrs_profit_subtitle?></h3>
+            <form>
+                <h2>Contact us</h2>
+                <p><label>Name:</label> <input name="myName" type="text" /></p>
+
+                <p><label>Email Address:</label> <input style="cursor: pointer;" name="myEmail" type="text" /></p>
+                <p><label>Message:</label>  <textarea name="message"></textarea> </p>
+                <p><input type="submit" value="Send" /></p>
+            </form>
+        </section>
+
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Footer Import -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <?php include "footer.html";?>
 
-        <script src="js/index.js"></script>
+
     </body>
 </html>

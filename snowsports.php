@@ -101,6 +101,6 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <?php include "footer.html";?>
 
-        <script src="js/index.js"></script>
+        
     </body>
 </html>
