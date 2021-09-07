@@ -173,7 +173,7 @@ section{
 
 
 .logo_img{
-    height: inherit;
+    height: 4rem;
     left: 1.5em;
     top: 1.5em;
     margin: 0em 1em;
@@ -196,6 +196,8 @@ section{
     .logo_img{
         width: 100px;
     }
+
+
 }
 
 
@@ -683,7 +685,7 @@ section{
     margin: 0 auto;
     background-color: var(--clr-dark-trans);
     margin-bottom: 2em;
-    padding: 1em 1em 0em 1em;
+    padding: 1em;
     text-align: center;
     width: 80vw;
 }

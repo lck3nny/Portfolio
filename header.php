@@ -1,8 +1,9 @@
 <header class="header">
     
     <div class="header-bar">
-        
-        <img src="img/devliam_acc.svg" alt="" class="logo_img">
+        <a href="index.php" >
+            <img src="img/devliam_acc.svg" alt="" class="logo_img">
+        </a>
         
         <button class="nav_toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
