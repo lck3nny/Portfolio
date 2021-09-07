@@ -105,7 +105,7 @@
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Pokemon page content
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    $pokemon_how_subtitle = ["Generative Adversarial Netowrk", "Convolutonal Neural Network"];
+    $pokemon_how_subtitle = ["Generative Adversarial Network", "Convolutional Neural Network"];
     $pokemon_results_subtitle = "We made a brand new Pokémon!";
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Sneakers page content

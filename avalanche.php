@@ -102,10 +102,9 @@
 
             <h2 class="section_project-title section_project-title-light">Data</h2>
             <h3 class="section_subtitle section_subtitle_end"><?php echo $avi_vairables_subtitle?></h3>
-            <p class="project-end_body"><?php echo $lorem_ipsum ?></p>
-            <br>
             <div class="avi-data">
-
+                <p class="project-end_body"><?php echo $lorem_ipsum ?></p>
+                
                 <img img src="img/temp.png" class="avi-data_img" alt="Temperature Visualisation">
 
             </div>
@@ -135,8 +134,9 @@
             <h3 class="section_subtitle section_subtitle_end"><?php echo $avi_results_subtitle?></h3>
             
             <div class="avi-results">
-                <p class="avi-results-body"><?php echo $lorem_ipsum ?></p>
-                
+                <p class="avi-results_body"><?php echo $lorem_ipsum ?></p>
+                <p class="avi-results_body"><?php echo $lorem_ipsum ?></p>
+
                 <a href="https://github.com/lck3nny/AvalancheLSTM" class="img-wrapper avi-results-img1"> 
                     <img img src="img/3fold_val_acc.png" class=" avi-results-img1" alt="Precip Visualisation">
                 </a> 

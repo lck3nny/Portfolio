@@ -697,6 +697,7 @@ section{
     font-size: var(--fs-small);
 }
 
+.poke-mid-body::after,
 .project-mid_body::after{
     content: '';
     display: block;
@@ -846,17 +847,14 @@ section{
 
     .avi-pred-body2{
         grid-area: text2;
-       
     }
 }
 
 /* LSTM Architecture*/
 
 .lstm_img{
-    
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    max-width: 80vw;
+    margin: 0 auto;
 }
 
 .avi-data{
@@ -867,16 +865,20 @@ section{
 @media(min-width: 880px){
     .avi-data{
         width: 80vw;
-        display: flex;
+        display: block;
         height: 60vh;
         justify-content: center;
     }
     
+    .avi-data_img{
+        height: 55vh;
+        margin: 0 auto;
+    }
 
-  
+    .lstm_img{
+        height: 40vh;
+    }
 
-  
-    
 }
 
 
@@ -921,26 +923,53 @@ section{
     background-image: url(../img/noise.jpg);
 }
 
+.poke-cols{
+    margin: 0 5vw;
+}
+
+.poke-mid-body{
+    text-align: center;
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-small);
+    margin: 1em;
+}
 @media(min-width: 800px){
     .poke-cols{
-        columns: 2;
-        column-gap: 1em;
-        column-rule-style: solid;
-        column-rule-width: 2px;
-        column-rule-color: var(--clr-accent);
+        display: grid;
+        grid-template-areas: "text4 text5"
+                            "img5 img6";
+
+        grid-template-columns: 40vw 40vw;
+        grid-template-rows: 50vh  30vh;
+        grid-column-gap: 2em;
+        justify-content: center;
     }
+
+    .gan_body{
+        grid-area: text4;
+    }
+
+    .cnn_body{
+        grid-area: text5;
+    }
+   
+    .gan_img{
+        grid-area: img5;
+        display: flex;
+        margin: 0 auto;
+        padding: 1em 0;
+    }
+
+    .cnn_img{
+        grid-area: img6;
+        display: flex;
+        margin: 0 auto;
+    }
+    
 }
 
-.gan_img,
-.cnn_img{
-    width: 60%;
-    position: relative;
-    margin: 0 auto;
-}
 
-.cnn_img{
-    max-height: 200px;
-}
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Snowsports */

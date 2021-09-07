@@ -65,26 +65,27 @@
         </section>
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <!-- Poster -->
+        <!-- How we did it -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <section class="my-section my-project-mid" id="poster">
+        <section class="my-section my-project-mid" id="how">
             <h2 class="section_project-title section_project-title-dark">How We Did It</h2>
             <div class="poke-cols">
                 <div class="poke-col-1">
                     <h3 class="section_subtitle section_subtitle_mid"><?php echo $pokemon_how_subtitle[0]?></h3>
 
-                    <p class="depop_body"><?php echo $snkrs_depop_body?></p>
-                    <a href="https://developers.google.com/machine-learning/gan/gan_structure">
-                        <img img src="img/gan.png" class="gan_img" alt="gan-architecture">
+                    <p class="poke-mid-body gan_body"><?php echo $snkrs_depop_body?></p>
+                    <a href="https://developers.google.com/machine-learning/gan/gan_structure" class="img-wrapper gan_img">
+                        <img img src="img/gan.png" class="image_wrapper gan_img" alt="gan-architecture">
                     </a>
+                    <br>
                 </div>
 
                 <div class="poke-col-2">
                     <h3 class="section_subtitle section_subtitle_mid"><?php echo $pokemon_how_subtitle[1]?></h3>
 
-                    <p class="depop_body"><?php echo $snkrs_depop_body?></p>
-                    <img img src="img/cnn.png" class="cnn_img" alt="gan-architecture">
+                    <p class="poke-mid-body cnn_body"><?php echo $snkrs_depop_body?></p>
+                    <img img src="img/cnn.png" class="image_wrapper cnn_img" alt="gan-architecture">
                     
                 </div>
             </div>
@@ -95,14 +96,14 @@
         </section>
         
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <!-- Profits -->
+        <!-- Poster -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <section class="my-project-end" id="profit">
+        <section class="my-project-end" id="poster">
             <h2 class="section_project-title section_project-title-light">How It Went</h2>
             <h3 class="section_subtitle section_subtitle_end"><?php echo $pokemon_results_subtitle?></h3>
-            <p class="profit_body"><?php echo $snkrs_profit_body?></p>
-            <p class="profit_body"><?php echo $snkrs_profit_body_2?></p>
+            <p class="project-end_body"><?php echo $snkrs_profit_body?></p>
+            <p class="project-end_body"><?php echo $snkrs_profit_body_2?></p>
             <img img src="img/deep_learning_poster.png" class="snkrs_stocks_img" alt="graph of sneaker profit">
         </section>
 
