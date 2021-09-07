@@ -1,7 +1,8 @@
+<link rel="icon" type="image/svg+xml" sizes="48x48" href="img/favicon.svg" >
+
 <header class="header">
-    
     <div class="header-bar">
-        <a href="index.php" >
+        <a href="index.php" class="logo-container">
             <img src="img/devliam_acc.svg" alt="" class="logo_img">
         </a>
         
