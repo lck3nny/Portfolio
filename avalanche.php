@@ -64,7 +64,7 @@
         </section>
 
        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <!-- Avalanche Prediction -->
+        <!-- About Avalanche Prediction -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
         <section class="my-section about-avalanches" id="about">

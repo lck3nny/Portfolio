@@ -75,7 +75,7 @@
             <h3 class="section_subtitle section_subtitle_mid"><?php echo $snkrs_depop_subtitle?></h3>
             <p class="project-mid_body"><?php echo $snkrs_depop_body?></p>
             <a href="https://www.depop.com/liamk3nny/">
-                <img img src="img/depop.png" class="depop_img" alt="screenshot of depop">
+                <img img src="img/depop.png" class="banner_img" alt="screenshot of depop">
             </a>
         </section>
 
@@ -88,7 +88,7 @@
             <h3 class="section_subtitle section_subtitle_end"><?php echo $snkrs_profit_subtitle?></h3>
             <p class="project-end_body"><?php echo $snkrs_profit_body?></p>
             <p class="project-end_body"><?php echo $snkrs_profit_body_2?></p>
-            <img img src="img/sneaker_stocks.jpg" class="snkrs_stocks_img" alt="graph of sneaker profit">
+            <img img src="img/sneaker_stocks.jpg" class="banner_img" alt="graph of sneaker profit">
         </section>
 
         

@@ -793,9 +793,7 @@ section{
     width: 80vw;
 }
 
-.avi-scale_img{
-    max-width: inherit;
-}
+
 
 @media(min-width: 880px){
 
@@ -806,6 +804,7 @@ section{
                             "subtitle img1"
                             "text1 img1"
                             "img2 text2";
+
         grid-template-columns: 40vw 35vw;
         grid-template-rows: 10vh 10vh 40vh  30vh;
         grid-column-gap: 2em;
@@ -924,7 +923,8 @@ section{
 }
 
 .poke-cols{
-    margin: 0 5vw;
+    margin: 0 auto;
+    width: 80vw;
 }
 
 .poke-mid-body{
@@ -933,38 +933,54 @@ section{
     font-size: var(--fs-small);
     margin: 1em;
 }
-@media(min-width: 800px){
+
+
+@media(min-width: 880px){
     .poke-cols{
         display: grid;
-        grid-template-areas: "text4 text5"
-                            "img5 img6";
+        grid-template-areas: "heading1  heading2"
+                            "text4  text5"
+                            "img5  img6";
 
         grid-template-columns: 40vw 40vw;
-        grid-template-rows: 50vh  30vh;
+        grid-template-rows: 10vh 40vh  30vh;
         grid-column-gap: 2em;
         justify-content: center;
+    }
+
+    /* Col 1 */
+
+    .gan_head{
+        grid-area: heading1;
     }
 
     .gan_body{
         grid-area: text4;
     }
 
+    .gan_img{
+        grid-area: img5;
+        max-height: 30vh;
+        margin: 0 auto;
+    }
+    /* Col 2 */
+
+    .cnn_head{
+        grid-area: heading2;
+    }
+
     .cnn_body{
         grid-area: text5;
     }
-   
-    .gan_img{
-        grid-area: img5;
-        display: flex;
-        margin: 0 auto;
-        padding: 1em 0;
-    }
+
 
     .cnn_img{
         grid-area: img6;
-        display: flex;
+        max-height: 30vh;
         margin: 0 auto;
     }
+
+    
     
 }
 
@@ -998,8 +1014,8 @@ section{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 
-.snkrs_stocks_img{
-    width: 100%;
+.banner_img{
+    width: 80vw;
     margin: 0 auto;
     margin-bottom: 2em;
     padding: 0em 1em 0em 1em;

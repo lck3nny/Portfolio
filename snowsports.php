@@ -91,9 +91,9 @@
         <section class="my-project-end" id="trip">
             <h2 class="section_project-title section_project-title-light">Ski Trip</h2>
             <h3 class="section_subtitle section_subtitle_end"><?php echo $snkrs_profit_subtitle?></h3>
-            <p class="profit_body"><?php echo $snkrs_profit_body?></p>
-            <p class="profit_body"><?php echo $snkrs_profit_body_2?></p>
-            <img img src="img/tignes.jpg" class="snkrs_stocks_img" alt="graph of sneaker profit">
+            <p class="project-end_body"><?php echo $snkrs_profit_body?></p>
+            <p class="project-end_body"><?php echo $snkrs_profit_body_2?></p>
+            <img img src="img/tignes.jpg" class="banner_img" alt="graph of sneaker profit">
         </section>
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
