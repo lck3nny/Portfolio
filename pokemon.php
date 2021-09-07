@@ -41,7 +41,7 @@
         <!-- How It Works -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
        
-        <section class="my-project-intro my-pokemon-intro" id="pokemon-intro">
+        <section class="my-section my-project-intro my-pokemon-intro" id="pokemon-intro">
             <h2 class="section_project-title section_project-title-light">How It Works</h2>
             <div class="project-descs">
 
@@ -68,7 +68,7 @@
         <!-- Poster -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <section class="my-project-mid" id="poster">
+        <section class="my-section my-project-mid" id="poster">
             <h2 class="section_project-title section_project-title-dark">How We Did It</h2>
             <div class="poke-cols">
                 <div class="poke-col-1">

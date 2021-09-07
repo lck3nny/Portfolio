@@ -19,6 +19,7 @@
     --clr-darker: #1f1f1f;
     --clr-accent: #8CE5CF;
 
+    --clr-white-trans: rgba(255, 255, 255, 255, 0.5);
     --clr-v-light-trans: rgba(48, 48, 48, 0.4);
     --clr-light-trans: rgba(48, 48, 48, 0.7);
     --clr-dark-trans: rgba(29, 29, 29, 0.85);
@@ -101,8 +102,9 @@ h3{font-size: var(--fs-h3);}
 
 section{
     padding: 1.5em 1.5em;
-    
 }
+
+
 
 
 .section_title{
@@ -115,7 +117,7 @@ section{
 }
 
 .section_title-intro-alt{
-    padding-top: 1.5em;  
+    padding-top: 1em;  
 }
 
 .section_title-intro strong{
@@ -326,7 +328,6 @@ section{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .intro{
     position: relative;
-    
 }
 
 @media (min-width: 780px){
@@ -606,9 +607,9 @@ section{
     color: var(--clr-light);
     background-size: cover;
     background-position: center;
-   
     padding-top: 2em;
     padding-bottom: 2em;
+    
 }
 
 .my-project-mid{
@@ -679,12 +680,56 @@ section{
 /* Body */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .project-descs{
-    max-width: 80vw;
     margin: 0 auto;
     background-color: var(--clr-dark-trans);
     margin-bottom: 2em;
     padding: 1em 1em 0em 1em;
     text-align: center;
+    width: 80vw;
+}
+
+.project-mid_body{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-small);
+}
+
+.project-mid_body::after{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: var(--clr-dark);
+    opacity: 0.4;
+}
+
+.project-end_body{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: var(--ff-primary);
+}
+
+
+.project-end_body::after{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: var(--clr-light);
+    opacity: 0.4;
 }
 
 @media (min-width: 880px) {
@@ -694,6 +739,10 @@ section{
         margin-right: auto;
         max-height: 80vh;
         overflow: scroll;
+    }
+
+    .project-desc{
+        width: 33vw;
     }
 
     .project-desc + .project-desc{
@@ -736,23 +785,28 @@ section{
     background-image: url(../img/network3.jpg);
 }
 
+/* About Avalanches*/
+
 .about-avalanches{
-    max-width: 1000px;
     margin: 0 auto;
+    width: 80vw;
 }
 
 .avi-scale_img{
-    box-shadow: var(--box-shaddow);
+    max-width: inherit;
 }
 
-@media(min-width: 800px){
+@media(min-width: 880px){
+
     .about-avalanches{
         display: grid;
-        grid-template-columns: 1fr 300px;
+        
         grid-template-areas: "title img1"
                             "subtitle img1"
                             "text1 img1"
                             "img2 text2";
+        grid-template-columns: 40vw 35vw;
+        grid-template-rows: 10vh 10vh 40vh  30vh;
         grid-column-gap: 2em;
     }
 
@@ -767,39 +821,36 @@ section{
         left: -2em;
         width: calc(100% + 4em);
         padding-left: 2em;
-        padding-right: 17em;
+        padding-right: 40vw;
         font-size: var(--fs-h4);
     }
 
-    .avi-scale_img{
-        grid-area: img1;
-        position: relative;
-        z-index: 2;
-        padding-right: 5.5em;
-        min-width: 25em;
-        padding-bottom: 2em;
+    .img-wrapper{
+        display: flex;
+        z-index:2;
+
+        margin:0 auto;
     }
 
-    .avi_img{
-        grid-area: img2;
-        position: relative;
-        z-index: 2;
-        padding-right: 1em;
-        min-width: 25em;
+    .avi-img-1{
+        grid-area:img1;
+    }
+    .avi-img-2{
+        grid-area:img2;
+    }
+
+    .avi-pred-body{
+        grid-area: text1;
+        
     }
 
     .avi-pred-body2{
-        text-align: right;
+        grid-area: text2;
+       
     }
-    
-    @media(min-width: 1050px){
-        .avi-pred-body2{
-            width: 120%;
-        }
-    }
-
-    
 }
+
+/* LSTM Architecture*/
 
 .lstm_img{
     
@@ -808,13 +859,58 @@ section{
     margin-right: 15%;
 }
 
-.avi-data-visualisation{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    margin-left: 1em;
-    margin-right: 1em;
-    background-color: var(--clr-light);
+.avi-data{
+    margin: 0 10vw 0 10vw;
+}
+
+/* Data Visualisation */
+@media(min-width: 880px){
+    .avi-data{
+        width: 80vw;
+        display: flex;
+        height: 60vh;
+        justify-content: center;
+    }
     
+
+  
+
+  
+    
+}
+
+
+/* Results */
+
+.avi-results{
+    margin: 0 10vw 0 10vw;
+}
+
+@media(min-width: 880px){
+
+    .avi-results{
+        display: grid;
+        
+        grid-template-areas: "text3 img3"
+                            "text3 img4";
+                            
+        grid-template-columns: 50vw 25vw;
+        grid-template-rows: 38vh  38vh;
+        grid-column-gap: 2em;
+    }
+    .avi-results-img1{
+        grid-area: img3;
+        display: flex;
+        background-color: white;
+    }
+
+    .avi-results-img2{
+        grid-area: img4;
+        display: flex;
+        background-color: white;
+    }
+
+
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -864,53 +960,14 @@ section{
 }
 
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Depop */ 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.depop_body{
-    text-align: center;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-family: var(--ff-secondary);
-    font-size: var(--fs-small);
-}
 
-.depop_body::after{
-    content: '';
-    display: block;
-    width: 50%;
-    height: 1px;
-    margin-top: 0.8em;
-    margin-bottom: 0.5em;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: var(--clr-dark);
-    opacity: 0.4;
-}
 
 /* Profit */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.profit_body{
-    text-align: center;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-family: var(--ff-primary);
-}
 
-
-.profit_body::after{
-    content: '';
-    display: block;
-    width: 50%;
-    height: 1px;
-    margin-top: 0.8em;
-    margin-bottom: 0.5em;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: var(--clr-light);
-    opacity: 0.4;
-}
 
 .snkrs_stocks_img{
     width: 100%;

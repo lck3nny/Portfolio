@@ -1,5 +1,5 @@
 <header class="header">
-    <?php include "content.php";?>
+    
     <div class="header-bar">
         
         <img src="img/devliam_acc.svg" alt="" class="logo_img">
@@ -8,6 +8,9 @@
             <span class="hamburger"></span>
         </button>
     </div>
+    
+    <script src="js/index.js"></script>
+    <?php include "content.php";?>
     
     <nav class="nav">
         <ul class="nav_list">
@@ -21,5 +24,5 @@
         </ul>
     </nav>
 
-    <script src="js/index.js"></script>
+    
 </header>

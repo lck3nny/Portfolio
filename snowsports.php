@@ -41,7 +41,7 @@
         <!-- How It Works -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
        
-        <section class="my-project-intro my-snowsports-intro" id="snkrs-intro">
+        <section class="my-section my-project-intro my-snowsports-intro" id="snkrs-intro">
             <h2 class="section_project-title section_project-title-light">How It Works</h2>
             <div class="project-descs">
 
@@ -69,7 +69,7 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- About Me -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <section class="about-me" id="about">
+        <section class="my-section about-me" id="about">
             <h2 class="section_title section_title-about">My Role</h2>
             <p class="section_subtitle section_subtitle-about"><?php echo $about_me_tagline;?></p>
 

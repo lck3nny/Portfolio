@@ -25,13 +25,15 @@
         <!-- Introduction -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <section class="intro" id="home">
-            <h1 class="section_title section_title-intro-alt">
-                Avalanche Prediction
-            </h1>
-            <p class="section_subtitle section_subtitle-intro">
-                with Machine Learning
-            </p>
-            <img img src="img/avalanche_square_light.png" class="intro_img" alt="picture of Liam smiling">
+                <h1 class="section_title section_title-intro-alt">
+                    Avalanche Prediction
+                </h1>
+                <p class="section_subtitle section_subtitle-intro">
+                    with Machine Learning
+                </p>
+                <img img src="img/avalanche_square_light.png" class="intro_img" alt="picture of Liam smiling">
+            
+            
         </section> <!-- /section -->
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -73,16 +75,22 @@
                 <p><?php echo $about_me_bodys[0];?></p>
                 <p><?php echo $about_me_bodys[1];?></p>
             </div>
-            <a href="https://avalanche.org/avalanche-encyclopedia/danger-scale/" class="avi-scale_img">
-                <img src="img/danger_scale.jpg" alt="danger-scale" >
-            </a>
+            <!-- changing things -->
+
+            
+            <a href="https://avalanche.org/avalanche-encyclopedia/danger-scale/" class="img-wrapper avi-img-1"> 
+                <img src="img/danger_scale.jpg" alt="danger-scale">
+            </a> 
+            
             
             <div class="avi-pred-body2">
                 <p><?php echo $about_me_bodys[0];?></p>
             </div>
-            <a href="http://freeride-verbier.com/blog/avalanche-risk-4-verbier-safety-ski-tips/" class="avi_img">
+            
+            <a href="http://freeride-verbier.com/blog/avalanche-risk-4-verbier-safety-ski-tips/" class="img-wrapper avi-img-2"> 
                 <img src="img/avalanche-model.jpg" alt="danger-scale" >
-            </a>
+            </a> 
+            
 
         </section>
 
@@ -90,20 +98,18 @@
         <!-- Data Visualisation -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <section class="my-section my-project-end" id="variables">
+        <section class="my-section my-project-end" id="data">
+
             <h2 class="section_project-title section_project-title-light">Data</h2>
             <h3 class="section_subtitle section_subtitle_end"><?php echo $avi_vairables_subtitle?></h3>
-            
-            <div class="avi-data-visualisation">
-                <img img src="img/precip.png" class="avi-data-img" alt="Precip Visualisation">
-                <img img src="img/temp.png" class="avi-data-img" alt="Temperature Visualisation">
-                <img img src="img/wind.png" class="avi-data-img" alt="Wind Visualisation">
-                <a href="https://hal.archives-ouvertes.fr/hal-00298992/document">
-                    <img img src="img/temp-explained.png" class="avi-data-img" alt="Temp Range Explained">
+            <p class="project-end_body"><?php echo $lorem_ipsum ?></p>
+            <br>
+            <div class="avi-data">
 
-                </a>
+                <img img src="img/temp.png" class="avi-data_img" alt="Temperature Visualisation">
 
             </div>
+
         </section>
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -113,7 +119,7 @@
         <section class="my-section my-project-mid" id="architecture">
             <h2 class="section_project-title section_project-title-dark">Network Architecture</h2>
             <h3 class="section_subtitle section_subtitle_mid"><?php echo $avi_architecture_subtitle?></h3>
-            <p class="depop_body"><?php echo $snkrs_depop_body?></p>
+            <p class="project-mid_body"><?php echo $avi_architecture_body?></p>
             <a href="https://www.bioinf.jku.at/publications/older/2604.pdf">
                 <img img src="img/lstm.png" class="lstm_img" alt="screenshot of depop">
             </a>
@@ -128,9 +134,16 @@
             <h2 class="section_project-title section_project-title-light">Results</h2>
             <h3 class="section_subtitle section_subtitle_end"><?php echo $avi_results_subtitle?></h3>
             
-            <div class="avi-data-visualisation">
-                <img img src="img/3fold_val_acc.jpg" class="avi-data-img" alt="Precip Visualisation">
-                <img img src="img/roc.png" class="avi-data-img" alt="Temperature Visualisation">
+            <div class="avi-results">
+                <p class="avi-results-body"><?php echo $lorem_ipsum ?></p>
+                
+                <a href="https://github.com/lck3nny/AvalancheLSTM" class="img-wrapper avi-results-img1"> 
+                    <img img src="img/3fold_val_acc.png" class=" avi-results-img1" alt="Precip Visualisation">
+                </a> 
+                <a href="https://github.com/lck3nny/AvalancheLSTM" class="img-wrapper avi-results-img2"> 
+                    <img img src="img/roc.png" class="img-wrapper avi-results-img2" alt="Temperature Visualisation">
+                </a> 
+
             </div>
         </section>
         

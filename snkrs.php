@@ -41,7 +41,7 @@
         <!-- How It Works -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
        
-        <section class="my-project-intro my-snkrs-intro" id="snkrs-intro">
+        <section class="my-section my-project-intro my-snkrs-intro" id="snkrs-intro">
             <h2 class="section_project-title section_project-title-light">How It Works</h2>
             <div class="project-descs">
 
@@ -73,7 +73,7 @@
         <section class="my-project-mid" id="depop">
             <h2 class="section_project-title section_project-title-dark">My Depop</h2>
             <h3 class="section_subtitle section_subtitle_mid"><?php echo $snkrs_depop_subtitle?></h3>
-            <p class="depop_body"><?php echo $snkrs_depop_body?></p>
+            <p class="project-mid_body"><?php echo $snkrs_depop_body?></p>
             <a href="https://www.depop.com/liamk3nny/">
                 <img img src="img/depop.png" class="depop_img" alt="screenshot of depop">
             </a>
@@ -86,8 +86,8 @@
         <section class="my-project-end" id="profit">
             <h2 class="section_project-title section_project-title-light">Profit vs Loss</h2>
             <h3 class="section_subtitle section_subtitle_end"><?php echo $snkrs_profit_subtitle?></h3>
-            <p class="profit_body"><?php echo $snkrs_profit_body?></p>
-            <p class="profit_body"><?php echo $snkrs_profit_body_2?></p>
+            <p class="project-end_body"><?php echo $snkrs_profit_body?></p>
+            <p class="project-end_body"><?php echo $snkrs_profit_body_2?></p>
             <img img src="img/sneaker_stocks.jpg" class="snkrs_stocks_img" alt="graph of sneaker profit">
         </section>
 

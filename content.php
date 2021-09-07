@@ -5,7 +5,6 @@
     $lorem_ipsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-    $nav_categories = ["Home", "My Skills", "About Me", "My Projects"];
 
 
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -94,7 +93,13 @@
     
     $avi_prediction_tagline = "The Science behind the predicting a catastrophe";
     $avi_vairables_subtitle = "Visualising the data - Take a step back";
-    $avi_architecture_subtitle = "The structure of my network";
+    $avi_architecture_subtitle = "The structure of an LSTM network";
+    $avi_architecture_body =    "With an LSTM (Long-Short Term Memory) structure, new and past data are fed into the module simulatneously. Next, it decides which
+                                parts of the data to keep and which to discard. Any data being kept is added to the 'cell state'
+                                 to be fed into the next iteration. With both the new and historical data, a prediction is made
+                                for this round and the entire process is repeated. This allows the network to make it's predictions
+                                with context of what has previously occured while discarding any irrelevant data as it moves to the 
+                                next prediction cycle. ";
     $avi_results_subtitle = "Here's how it went";
 
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
