@@ -174,8 +174,6 @@ section{
 
 .logo_img{
     height: 4rem;
-    left: 1.5em;
-    top: 1.5em;
     margin: 0em 1em;
 }
 
@@ -1066,33 +1064,41 @@ section{
 /* Contact */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.contact_form{
+.contact-form{
     width: 80vw;
     margin: 0 auto;
-    background-color: var(--clr-v-dark-trans);
+    background-color: var(--clr-dark-trans);
     padding: 5vh 5vw;
+    
 }
 
 @media (min-width: 880px){
-    .contact_form{
+    .contact-form{
         display: grid;
         grid-template-areas:    "name  email"
-                                "msgBody  msgBody"
+                                "subject  subject"
+                                "msgBody  msgBody"   
                                 "btnSub  btnSub";
 
         grid-template-columns: 35vw 35vw;
-        grid-template-rows: 10vh  30vh 8vh;
+        grid-template-rows: 7vh 7vh 40vh 7vh;
         grid-column-gap: 2em;
+        grid-row-gap: 1em;
         justify-content: center;
 
     }
 
     .name{
         grid-area: name;
+        padding-top: 0 2em;
     }
 
     .email{
         grid-area: email;
+    }
+
+    .subject{
+        grid-area: subject;
     }
 
     .msg_body{

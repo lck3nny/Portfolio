@@ -40,11 +40,12 @@
         <section class="my-section my-project-end" id="contact">
             <h2 class="section_project-title section_project-title-light">What's Your Idea?</h2>
             <h3 class="section_subtitle section_subtitle_end"><?php echo $snkrs_profit_subtitle?></h3>
-            <form class="contact_form" method="POST" action="index.php" id="contact-form">
-                <p class="name"><label>Name:</label> <br> <input name="myName" type="text" /></p>
-                <p class="email"><label>Email:</label> <br> <input style="cursor: pointer;" name="myEmail" type="text" /></p>
-                <p class="msg_body"><label>Message:</label> <br>  <textarea name="myMessage" ></textarea> </p>
-                <p class="submit_btn"><input type="submit" value="Send" /></p>
+            <form class="contact-form" method="POST" action="contactform.php">
+                <input class="name" type="text" name="name" placeholder="Full Name">
+                <input class="email" type="text" name="email" placeholder="Your E-Mail">
+                <input class="subject" type="text" name="subject" placeholder="Subject">
+                <textarea class="msg_body" name="message" placeholder="Your Message"></textarea>
+                <button class="submit_btn" type="submit" name="submit">Send</button>
             </form>
         </section>
 
