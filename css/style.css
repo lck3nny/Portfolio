@@ -1062,6 +1062,49 @@ section{
     opacity: 0.75;
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Contact */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.contact_form{
+    width: 80vw;
+    margin: 0 auto;
+    background-color: var(--clr-v-dark-trans);
+    padding: 5vh 5vw;
+}
+
+@media (min-width: 880px){
+    .contact_form{
+        display: grid;
+        grid-template-areas:    "name  email"
+                                "msgBody  msgBody"
+                                "btnSub  btnSub";
+
+        grid-template-columns: 35vw 35vw;
+        grid-template-rows: 10vh  30vh 8vh;
+        grid-column-gap: 2em;
+        justify-content: center;
+
+    }
+
+    .name{
+        grid-area: name;
+    }
+
+    .email{
+        grid-area: email;
+    }
+
+    .msg_body{
+        grid-area: msgBody;
+    }
+
+    .submit_btn{
+        grid-area: btnSub;
+    }
+
+}
+
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
