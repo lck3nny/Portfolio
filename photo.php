@@ -31,7 +31,7 @@
             <p class="section_subtitle section_subtitle-intro">
                 Capturing a moment
             </p>
-            <img img src="img/gallery/whis-eagle.JPG" class="intro_img" alt="photography-title_img">
+            <img img src="img/whis-eagle.JPG" class="intro_img" alt="photography-title_img">
         </section> <!-- /section -->
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -58,93 +58,93 @@
             <div class="gallery-square">
                 <!-- gallery item 1 -->
                 <a href="https://www.instagram.com/p/BSti--fgDYG/" class="gallery_sq_item">
-                    <img src="img/gallery/blue-reflections.jpg" alt="" class="sq_gallery_img" >
+                    <img src="img/blue-reflections.jpg" alt="" class="sq_gallery_img" >
                 </a>
                 
                 <!-- gallery item 2 -->
                 <a href="https://www.instagram.com/p/BXYG75vAoKL/" class="gallery_sq_item">
-                    <img src="img/gallery/woodstock.jpg" alt="" class="sq_gallery_img">
+                    <img src="img/woodstock.jpeg" alt="" class="sq_gallery_img">
                 </a>
 
                 <!-- gallery item 3 -->
                 <a href="https://www.instagram.com/p/BWisZ6lgwwC/" class="portfolio_item">
-                    <img src="img/gallery/neon.jpg" alt="" class="portfolio_img">
+                    <img src="img/neon.jpeg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 4 -->
                 <a href="https://www.instagram.com/p/Bh8wYqLlEtU/" class="portfolio_item">
-                    <img src="img/gallery/mtn-harry.jpg" alt="" class="portfolio_img">
+                    <img src="img/mtn-harry.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 5 -->
                 <a href="https://www.instagram.com/p/BlYP4QMF796/" class="portfolio_item">
-                    <img src="img/gallery/bench-man.jpg" alt="" class="portfolio_img">
+                    <img src="img/bench-man.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 6 -->
                 <a href="https://www.instagram.com/p/CJp5timhRaf/" class="portfolio_item">
-                    <img src="img/gallery/yall-got-black-crows.jpg" alt="" class="portfolio_img">
+                    <img src="img/yall-got-black-crows.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 7 -->
                 <a href="https://www.instagram.com/p/BVnOh6nAJbk/" class="portfolio_item">
-                    <img src="img/gallery/poland-portal.jpg" alt="" class="portfolio_img">
+                    <img src="img/poland-portal.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 8 -->
                 <a href="https://www.instagram.com/p/BWeylQEgrXh/" class="portfolio_item">
-                    <img src="img/gallery/flower-boy.jpg" alt="" class="portfolio_img">
+                    <img src="img/flower-boy.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 9 -->
                 <a href="https://www.instagram.com/p/BgwV4QoB2Zp/" class="portfolio_item">
-                    <img src="img/gallery/telegraph.jpg" alt="" class="portfolio_img">
+                    <img src="img/telegraph.jpeg" alt="" class="portfolio_img">
                 </a>
                 
                 <!-- gallery item 10 -->
                 <a href="https://www.instagram.com/p/BVUbzPYgu1S/" class="portfolio_item">
-                    <img src="img/gallery/smoky-chris.jpg" alt="" class="portfolio_img">
+                    <img src="img/smoky-chris.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 11 -->
                 <a href="https://www.instagram.com/p/CTiXplNpTqU/" class="portfolio_item">
-                    <img src="img/gallery/whis-eagle.jpg" alt="" class="portfolio_img">
+                    <img src="img/whis-eagle.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 12 -->
                 <a href="https://www.instagram.com/p/BT4iGYZgw2d/" class="portfolio_item">
-                    <img src="img/gallery/surrey-sunset.jpg" alt="" class="portfolio_img">
+                    <img src="img/surrey-sunset.jpeg" alt="" class="portfolio_img">
                 </a>
                 
                 <!-- gallery item 13 -->
                 <a href="https://www.instagram.com/liamk3nny/" class="portfolio_item">
-                    <img src="img/gallery/walk-to-work.jpg" alt="" class="portfolio_img">
+                    <img src="img/walk-to-work.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 14 -->
                 <a href="https://www.instagram.com/p/BVIkVPBAiDr/" class="portfolio_item">
-                    <img src="img/gallery/graph-abstract.jpg" alt="" class="portfolio_img">
+                    <img src="img/graph-abstract.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 15 -->
 
                 <a href="https://www.instagram.com/p/BUq2dTigvNx/" class="gallery_sq_item">
-                    <img src="img/gallery/jack-bubbles.JPG" alt="" class="sq_gallery_img">
+                    <img src="img/jack-bubbles.JPG" alt="" class="sq_gallery_img">
                 </a>
 
                 <!-- gallery item 16 -->
                 <a href="https://www.instagram.com/p/B6JOxEUhmBf/" class="gallery_sq_item">
-                    <img src="img/gallery/lost-lauren.jpg" alt="" class="sq_gallery_img">
+                    <img src="img/lost-lauren.jpg" alt="" class="sq_gallery_img">
                 </a>
 
                <!-- gallery item 17 -->
                 <a href="https://www.instagram.com/liamk3nny/" class="portfolio_item">
-                    <img src="img/gallery/ire-rainbow.jpg" alt="" class="portfolio_img">
+                    <img src="img/ire-rainbow.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 18 -->
                 <a href="https://www.instagram.com/p/CMYvERKhLuH/" class="portfolio_item">
-                    <img src="img/gallery/snowy-nick.jpg" alt="" class="portfolio_img">
+                    <img src="img/snowy-nick.jpg" alt="" class="portfolio_img">
                 </a>
 
                 

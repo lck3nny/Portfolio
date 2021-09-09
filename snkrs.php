@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php include "content.php";?>
+        <?php include "header.php";?>
         <title>Sneakers</title>
 
         <!-- Normalize will work with all browsers -->
@@ -19,9 +19,7 @@
     </head>
 
     <body>
-        <!-- Header Import -->
-        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <?php include "header.php";?>
+        
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Introduction -->
@@ -33,7 +31,7 @@
             <p class="section_subtitle section_subtitle-intro">
                 Buying, Selling, Trading
             </p>
-            <img img src="img/snkrs_square.png" class="intro_img" alt="ow_blazer_vanilla">
+            <img img src="img/snkrs_square.jpg" class="intro_img" alt="ow_blazer_vanilla">
         </section> <!-- /section -->
 
 

@@ -113,13 +113,13 @@
                 <!-- portfolio item 4 -->
                 <a href="snowsports.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[3];?></div>
-                    <img src="img/susnow_square.png" alt="" class="portfolio_img">
+                    <img src="img/susnow_square.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 5 -->
                 <a href="snkrs.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[4];?></div>
-                    <img src="img/snkrs_square.png" alt="" class="portfolio_img">
+                    <img src="img/snkrs_square.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 6 -->

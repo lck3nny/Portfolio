@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php include "content.php";?>
+        <?php include "header.php";?>
         <title>Surrey Snowsports</title>
 
         <!-- Normalize will work with all browsers -->
@@ -19,9 +19,6 @@
     </head>
 
     <body>
-        <!-- Header Import -->
-        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <?php include "header.php";?>
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Introduction -->
@@ -33,7 +30,7 @@
             <p class="section_subtitle section_subtitle-intro">
                 Freestyle Captain, Medalist
             </p>
-            <img img src="img/susnow_square.png" class="intro_img" alt="picture of Liam smiling">
+            <img img src="img/susnow_square.jpg" class="intro_img" alt="picture of Liam smiling">
         </section> <!-- /section -->
 
 
