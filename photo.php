@@ -31,7 +31,7 @@
             <p class="section_subtitle section_subtitle-intro">
                 Capturing a moment
             </p>
-            <img img src="img/whis-eagle.JPG" class="intro_img" alt="photography-title_img">
+            <img img src="img/whis-eagle.jpg" class="intro_img" alt="photography-title_img">
         </section> <!-- /section -->
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -123,13 +123,13 @@
 
                 <!-- gallery item 14 -->
                 <a href="https://www.instagram.com/p/BVIkVPBAiDr/" class="portfolio_item">
-                    <img src="img/graph-abstract.jpg" alt="" class="portfolio_img">
+                    <img src="img/graph-abstract.jpeg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- gallery item 15 -->
 
                 <a href="https://www.instagram.com/p/BUq2dTigvNx/" class="gallery_sq_item">
-                    <img src="img/jack-bubbles.JPG" alt="" class="sq_gallery_img">
+                    <img src="img/jack-bubbles.jpg" alt="" class="sq_gallery_img">
                 </a>
 
                 <!-- gallery item 16 -->
