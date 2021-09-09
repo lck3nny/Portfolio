@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php include "content.php";?>
+        <?php include "header.php";?>
         <title>Pokémon Generation</title>
 
         <!-- Normalize will work with all browsers -->
@@ -21,7 +21,7 @@
     <body>
         <!-- Header Import -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-        <?php include "header.php";?>
+        
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Introduction -->
@@ -46,18 +46,18 @@
             <div class="project-descs">
 
                 <div class="project-desc">
-                    <h3 class="desc-head"><?php echo $snkrs_explained[0]?></h3>
-                    <p class="desc-body"><?php echo $snkrs_explained_body[0]?></p>
+                    <h3 class="desc-head"><?php echo $pokemon_about_heads[0]?></h3>
+                    <p class="desc-body"><?php echo $pokemon_about_bodys[0]?></p>
                 </div> <!-- / project-desc -->
 
                 <div class="project-desc">
-                    <h3 class="desc-head"><?php echo $snkrs_explained[1]?></h3>
-                    <p class="desc-body"><?php echo $snkrs_explained_body[1]?></p>
+                    <h3 class="desc-head"><?php echo $pokemon_about_heads[1]?></h3>
+                    <p class="desc-body"><?php echo $pokemon_about_bodys[1]?></p>
                 </div> <!-- / project-desc -->
 
                 <div class="project-desc">
-                    <h3 class="desc-head"><?php echo $snkrs_explained[2]?></h3>
-                    <p class="desc-body"><?php echo $snkrs_explained_body[2]?></p>
+                    <h3 class="desc-head"><?php echo $pokemon_about_heads[2]?></h3>
+                    <p class="desc-body"><?php echo $pokemon_about_bodys[2]?></p>
                 </div> <!-- / project-desc -->
 
             </div> <!-- / project-descs -->
@@ -76,7 +76,7 @@
                 
                 <h3 class="section_subtitle section_subtitle_mid gan_head"><?php echo $pokemon_how_subtitle[0]?></h3>
 
-                <p class="poke-mid-body gan_body"><?php echo $snkrs_depop_body?></p>
+                <p class="poke-mid-body gan_body"><?php echo $pokemon_how_bodys[0]?></p>
                 <a href="https://developers.google.com/machine-learning/gan/gan_structure" class="gan_img">
                     <img img src="img/gan.png" class="image_wrapper gan_img" alt="gan-architecture">
                 </a>
@@ -86,7 +86,7 @@
             
                 <h3 class="section_subtitle section_subtitle_mid cnn_head"><?php echo $pokemon_how_subtitle[1]?></h3>
 
-                <p class="poke-mid-body cnn_body"><?php echo $snkrs_depop_body?></p>
+                <p class="poke-mid-body cnn_body"><?php echo $pokemon_how_bodys[1]?></p>
                 <img img src="img/cnn.png" class="cnn_img" alt="gan-architecture">
                 
                 
@@ -106,8 +106,8 @@
         <section class="my-project-end" id="poster">
             <h2 class="section_project-title section_project-title-light">How It Went</h2>
             <h3 class="section_subtitle section_subtitle_end"><?php echo $pokemon_results_subtitle?></h3>
-            <p class="project-end_body"><?php echo $snkrs_profit_body?></p>
-            <p class="project-end_body"><?php echo $snkrs_profit_body_2?></p>
+            <p class="project-end_body"><?php echo $pokemon_results_bodys[0]?></p>
+            <p class="project-end_body"><?php echo $pokemon_results_bodys[1]?></p>
             <img img src="img/deep_learning_poster.png" class="banner_img" alt="graph of sneaker profit">
         </section>
 

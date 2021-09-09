@@ -133,8 +133,43 @@
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Pokemon page content
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    $pokemon_about_heads = ["Data", "Creation" ,"Categorisation"];
+    $pokemon_about_bodys = ["As a franchise dating back to the early '90s, the world of Pokémon is vast. There are 809 official characters across 8 
+                            'generations' so far, with statistics and categories for each. There is a well documented collection of official Pokémon
+                            images too, with characters in different poses or executing different moves. This makes for a large and well documented
+                            dataset. Further to this, there are many unofficial Pokémon which have been added by fans; many of which with a full list
+                            of attributes. Working with images can often by difficult, with so much variation in background, subject and size. However,
+                            Pokémon provide a consistent background and shape of image, making this dataset the perfect candidate for machine learning.",
+                            "The first step in our process was to create a brand new Pokémon. In order to do this, we would need a large dataset to learn
+                             from. In order to improve our learning capibilities, we flipped each image horizontally, doubling or dataset. This allowed us
+                             to feed in extra datapoints to the network without over-training.<br><br><br>The training process for a creation network such as a GAN
+                             was long and arduous. The processing times for training took days for this stage; a significant increase from any other learning
+                             models which we had trained in the past. ",
+                            "With our new Pokémon output from the previous step, we needed to provide the character with a 'type' attribute - a fundamental
+                            statistic which defines which group the Pokémon belongs to. Similarly to the previous step, we expanded our database, this time 
+                            going one step further. We flipped the Pokémon images both vertically and horizontally, expanding our dataset 4-fold. As much
+                            of the caterisation relied on color and shape, using an inverted image would not hinder the network's ability to categorise
+                            a character into one of 18 categories. This allowed us to vastly improve our accuracy when predicting, resulting in a very
+                            understandable choise of 'Grass - Bug' for our small, green friend. "];
     $pokemon_how_subtitle = ["Generative Adversarial Network", "Convolutional Neural Network"];
+    $pokemon_how_bodys =    ["A GAN consists of two seperate networks, each aiming to fool one another. The 'Generator's' role is to take a square of
+                            pure noise and adapt it to form a new, recognisable image. Meanwhile, the role of the 'Discriminator' is to inspect an image
+                            and determine it as 'real' or 'fake'. These two networks battle, with an improvement in one network encouraging the other to
+                            do a better job. This is a very slow process, requiring many rounds of training, but one which can achieve some outstanding
+                            results",
+                            "A CNN takes an image as an input, itterating over it in small steps to produce a feature-focused output. After this process is
+                            repeated a number of times, a 'Dense' layer interprets the convoluted input and outputs a series of probabilities relating to
+                            the likelyhood of falling into each predefined category. Image processing and pre-training can be used to speed up this learning
+                            process, removing the need for a network to complete early steps such as edge or object detection."];
+    
     $pokemon_results_subtitle = "We made a brand new Pokémon!";
+    $pokemon_results_bodys =    ["Our goal for this project was to create a completly novel Pokémon with a 'type' arritbute; using a Generative Adversatial Network
+                                to create our Pokémon and a Convolutional Neural Network to categorise it. We created an image which can be easily recognised as a
+                                cartoon style character, bursting with color, an animal-esque shape and even an eye ball! Our small, green creation was categorised
+                                as a 'Grass - Bug' type, a very beleivable outcome for such a character. 
+                                ", "Below, you will find a copy of our final research poster, going in depth into the creation, success and process behind this research
+                                project. "];
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Sneakers page content
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
