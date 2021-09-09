@@ -107,7 +107,7 @@
 
                 <a href="photo.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[2];?></div>
-                    <img src="img/stag_square.jpg" alt="" class="portfolio_img">
+                    <img src="img/gallery/whis-eagle.jpg" alt="" class="portfolio_img">
                 </a>
 
                 <!-- portfolio item 4 -->
@@ -123,7 +123,7 @@
                 </a>
 
                 <!-- portfolio item 6 -->
-                <a href="connect.php" class="portfolio_item">
+                <a href="contact.php" class="portfolio_item">
                     <div class='portfolio_text'><?php echo $my_projects[5];?></div>
                     <img src="img/developer.png" alt="" class="portfolio_img">
                 </a>

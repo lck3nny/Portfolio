@@ -21,7 +21,7 @@
             <li class="nav_item"><a href="photo.php" class="nav_link"><?php echo $my_projects[2];?></a></li>
             <li class="nav_item"><a href="snowsports.php" class="nav_link"><?php echo $my_projects[3];?></a></li>
             <li class="nav_item"><a href="snkrs.php" class="nav_link"><?php echo $my_projects[4];?></a></li>
-            <li class="nav_item"><a href="connect.php" class="nav_link"><?php echo $my_projects[5];?></a></li>
+            <li class="nav_item"><a href="contact.php" class="nav_link"><?php echo $my_projects[5];?></a></li>
         </ul>
     </nav>
 

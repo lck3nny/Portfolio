@@ -38,8 +38,8 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
         <section class="my-section my-project-end" id="contact">
-            <h2 class="section_project-title section_project-title-light">What's Your Idea?</h2>
-            <h3 class="section_subtitle section_subtitle_end"><?php echo $snkrs_profit_subtitle?></h3>
+            <h2 class="section_project-title section_project-title-light"><?php echo $contact_title?></h2>
+            <h3 class="section_subtitle section_subtitle_end"><?php echo $contact_subtitle?></h3>
             <form class="contact-form" method="POST" action="contactform.php">
                 <input class="name" type="text" name="name" placeholder="Full Name">
                 <input class="email" type="text" name="email" placeholder="Your E-Mail">

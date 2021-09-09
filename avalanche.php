@@ -72,8 +72,7 @@
             <p class="section_subtitle section_subtitle-about"><?php echo $avi_prediction_tagline;?></p>
 
             <div class="avi-pred-body1">
-                <p><?php echo $about_me_bodys[0];?></p>
-                <p><?php echo $about_me_bodys[1];?></p>
+                <p><?php echo $avi_prediction_bodys[0];?></p>
             </div>
             <!-- changing things -->
 
@@ -84,7 +83,7 @@
             
             
             <div class="avi-pred-body2">
-                <p><?php echo $about_me_bodys[0];?></p>
+                <p><?php echo $avi_prediction_bodys[1];?></p>
             </div>
             
             <a href="http://freeride-verbier.com/blog/avalanche-risk-4-verbier-safety-ski-tips/" class="img-wrapper avi-img-2"> 
@@ -103,7 +102,7 @@
             <h2 class="section_project-title section_project-title-light">Data</h2>
             <h3 class="section_subtitle section_subtitle_end"><?php echo $avi_vairables_subtitle?></h3>
             <div class="avi-data">
-                <p class="project-end_body"><?php echo $lorem_ipsum ?></p>
+                <p class="project-end_body"><?php echo $avi_vairables_body ?></p>
                 
                 <img img src="img/temp.png" class="avi-data_img" alt="Temperature Visualisation">
 
@@ -134,8 +133,8 @@
             <h3 class="section_subtitle section_subtitle_end"><?php echo $avi_results_subtitle?></h3>
             
             <div class="avi-results">
-                <p class="avi-results_body"><?php echo $lorem_ipsum ?></p>
-                <p class="avi-results_body"><?php echo $lorem_ipsum ?></p>
+                <p class="avi-results_body"><?php echo $avi_results_bodys[0] ?></p>
+                <p class="avi-results_body"><?php echo $avi_results_bodys[1] ?></p>
 
                 <a href="https://github.com/lck3nny/AvalancheLSTM" class="img-wrapper avi-results-img1"> 
                     <img img src="img/3fold_val_acc.png" class=" avi-results-img1" alt="Precip Visualisation">

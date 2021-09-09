@@ -62,37 +62,51 @@
                         "Network",
                         "Prediction"];
 
-    $avi_explained_body =   ["As with any learning process, data is required to provide example and context to a scenario. In the
-                            case of Avalanche Prediction, weather data was combined with avalanche data to create a novel dataset. 
-                            First comes clearning and repairing. As many datasets are created without supervision, there are often
-                            many missing, incomplete or otherwise corrupted values. Data First-Aid is the first and one of the most
-                            important parts of any machine learning process.
-                            It is important to remove data which is not useful or confusing to the network as this will only 
-                            obfuscate the learning process, while retaining as much useful data as possible. Furthermore, many
-                            examples of data require context, for example Temperature. Variations +/- of 0° are much more significant 
-                            than those firmly in the + or - scale. Data normalisation is a technique used to adapt the way data is
-                            displayed to the network. Finding the apropriate technique to normalise each variable is a very important
-                            process and, done wrong, can lead to an inability to learn from the data.",
+    $avi_explained_body =   ["Both the quality and quantity of life lessons somebody encounters significantly effects how experienced that
+                            individual is at a particular task. The same can be said about the data provided to a computer learning model. 
+                            It is therefore crutial to the success of an ML model to input useful and easily recognisable data, while ensuring
+                            that there is sufficient data to learn from. For this reason, I combined avalanche data from the Utah Avalanche Centre,
+                            with weather data the NOAA (National Oceanic and Atmospheric Administration) to form my own novel dataset. 
+                            This gave me 10 winters of well documented avalanche activity to learn from, a smaller than desirable amount, but 
+                            significant nonetheless.
+                            ",
 
-                            "There are many types of Machine Learning techniques and Neural Netowrks make up only a subsection. 
-                            For the problem of predicting avalanches, the effects of weather can perpetuate weaknesses in the snow
-                            structure for weeks or even months. Therefore, it was important to utalise a network which considered 
-                            the long term effects of data. Recurrant Neural Networks (RNNs) allow data to be passed forward, from 
-                            one prediction to another. This prevents data from viewed ",
+                            "Neural Networks allow computers to quickly and efficiently find trends in data. The learning process
+                            requires many training cycles, where nodes within a network (just like neurons in the brain) adapt over time
+                            to recognise patterns relating to trends within the data. This allows computers to determine for themselves
+                            which features are more or less relavent to a decision. An LSTM (Long-Short Term Memory) network uses a
+                            recurrant technique to make use of prior experience, giving context to the data rather than analysing each
+                            new input in isolation. When dealing with accumulated snow, the events of the past day, week or month can
+                            have a significant effect on the stability of the snowpack.",
 
-                            "Understanding patterns in data allows us to make predictions about how future data may behave. Allowing 
-                            the network to 'train' is a process by which nodes within the network adapt to particular input patterns. 
-                            When similar patterns are fed in, the network's goal is to recognise important features and categorise
-                            the input data appropriately. As the network trains, it may predict corrently or incorrectly. The success
-                            of each prediction is fed back into the network and provides feedback, directly impacting how each node 
-                            is configured. Just like a person, this learning process can be confusing and take a lot of examples
-                            to successfully learn. Once training is complete and the network is able to predict at a satisfactory
-                            accuracy, fresh data is fed into the network. This time, predictions can be used on real-world examples,
-                            providing useful insight to users that would be much too complicated for a human to calculate. "];
+                            "With a solid dataset and a machine learning model which appropriately handled data for my task, it was possible to
+                            begin training and prediciton. The goal of my network was to predict the occurance of an avalanche on a particular day,
+                            either 'true' or 'false'. Avalanches occured on aproximately 48% of days, meaning that a model could simply
+                            pick 'false' during each attempt and score an accuracy of 52%. This number defines the baseline prediction accuracy
+                            for the project. My goal was to improve apon the baseline accuracy by 10%. Predicting at a minimum of 62% accuracy
+                            would successfully prove the concept of LSTM structures providing useful insight into the field of avalanche
+                            prediction. "];
     
     
-    $avi_prediction_tagline = "The Science behind the predicting a catastrophe";
+    $avi_prediction_tagline =   "The Science behind the predicting a catastrophe";
+    $avi_prediction_bodys =     ["Almost all avalanche prediction is carried out by highly trained individuals who spend years learning the
+                                intricacies of snow science, slope angles and wind loading. The 'snowpack' referrs to the accumulation of
+                                snow across a winter, forming layers similar to those of a sedimentary rock. Some light and fluffy, some heavily
+                                crystalised, layers in the snowpack are never the same. It's differences in the layers that can cause weaknesses
+                                to form in the snowpack. After enough instability and an ever important trigger, an avalanche may occur. Snow on an
+                                angle will suddnely begin to slide, carrying people, rocks and trees down the slope, mixing them around
+                                and depositing them at the bottom of the valley.",
+                                "Understanding the full complexities of a snowpack under constantly variable conditions is simply not possible
+                                for a person. Much of this data processing can be done by computers with a much higher tollerance for mathmatical
+                                calculation. A tool such as this could help suppliment the work that is done by these experts, allowing them to
+                                focus their attention on planning and prevention."];
+
     $avi_vairables_subtitle = "Visualising the data - Take a step back";
+    $avi_vairables_body =   "Below, you can see the recorded temperatures for 10 winters in the town of Logan, Utah. While the overall trend within the
+                            season remains the same, variations in the length or intensity of cold / warm periods can cause a huge impact to snowpack
+                            stability. A change of 1° could have very little impact to snow and ice at -20°, whereas a change of 1° around 0° would mean
+                            the difference between melt and thaw. ";
+                            
     $avi_architecture_subtitle = "The structure of an LSTM network";
     $avi_architecture_body =    "With an LSTM (Long-Short Term Memory) structure, new and past data are fed into the module simulatneously. Next, it decides which
                                 parts of the data to keep and which to discard. Any data being kept is added to the 'cell state'
@@ -100,7 +114,21 @@
                                 for this round and the entire process is repeated. This allows the network to make it's predictions
                                 with context of what has previously occured while discarding any irrelevant data as it moves to the 
                                 next prediction cycle. ";
+    
     $avi_results_subtitle = "Here's how it went";
+    $avi_results_bodys =    ["The graph seen to the right shows the accuracy of predictions made on the validation set across three seperate
+                            tests. 9-Fold Cross-Validation was used in order to better represent predictions of the network across the dataset.
+                            This is done by changing the portion of data that the network was training on: 1/3, 3/6 and 6/9. These slices were
+                            chosen to allow the network to train from full winter seasons, instead of splitting data mid winter. 
+                            With a baseline accuracy of the dataset at 52%, the target prediciton accuracy is marked by the blue line,
+                            at 62%. You can see that the earliest fold (with the least accurate data) performed the worst, while the other two
+                            folds either met or exceeded the target accouracy for the network.",
+                            "The latter graph displays an AUC - ROC curve. This is a performance measure, displaying the seperability of the data.
+                            A model which is totally unable to seperate a positive and negative result will fall along the 45° line. Any curve above 
+                            this line shows that the network was successfully able to distinguish between a positive and negative result. 
+                            This measure clearly shows that the network was successful while using a 'loss' of Binary-Cross-Entropy' and an
+                            opsimiser of 'Adam'. This model became the final and most successful model of the project, predicting significantly
+                            above the target accuracy. "];
 
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Pokemon page content
@@ -152,4 +180,11 @@
 
     $snkrs_profit_body_2 =    "Below is a graph detailing the price paid for each sneaker within my portfolio and its value, either at the current
                                 time, or the value for which it was sold. Profits are hilighted in green, with any losses displayed in orange.";
+
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    // Contact page content
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    $contact_title = "What's Your Idea?";
+    $contact_subtitle = "I'd love to hear all about it!";
+
 ?>
