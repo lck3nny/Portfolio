@@ -171,6 +171,52 @@
                                 ", "Below, you will find a copy of our final research poster, going in depth into the creation, success and process behind this research
                                 project. "];
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    // Snowsports page content
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    $snow_explained =  ["Creation",
+                        "Training",
+                        "Competition"];
+
+    $snow_explained_bodys = ["Prior to my involvement in the club, Surrey Snowsports (SuSnow) offered ski and snowboard racing for team members
+                            and a yearly ski trip to the Alps. My love for snowboarding got me hooked, however racing was not where my passion
+                            truely lied. After winning consecuative local races, my Race Captain signed me up for the biggest university snowsports
+                            competition in the UK, bringing together hundreds of competitors from across the country. After asking about the possibility
+                            of competing in freestyle, I placed 6th overall, scoring our university it's first ever freestyle snowboarding points. After 
+                            the success of this event, I planned with the club to create a new role of 'Freestyle Captain' in order to establish freestyle
+                            snowsports as a permanent part of SuSnow.",
+
+                            "Eatablishing a new disapline within the club required budget meetings with our Studen's Union, sourcing quality equiptment
+                            for a range of abilities and sizes, arranging sponsorship with local businesses to secure club discounts and creating agreements
+                            with training facilities for scheduled sessions at a competative rate before the role was even off the ground. During the semester,
+                            I arranged weekly trips to a local snow centre where I would manage bookings, transport and passes. These sessions were open to
+                            skiers and snowboarders of intermediate ability and above with training provided by myself. For snowboarding, this was fairly straight
+                            forward, but for skiing, a disapline I had never been involved in.",
+
+                            "It was important for me to fully establish the role I had created by bringing a group of athletes to competition. In order to do this,
+                            I ran a number of additional coaching sessions, aimed at aerial awareness on trampolines. These sessions allowed athletes to safely
+                            practise dangerous tricks before competition with supervision from myself and a training partner. In addition to these sessions, professional
+                            training was offered to a select few who were interested in competing. In our first year of running Freestyle as a disapline, we achieved
+                            two podium positions: 1st Place Womens Freestyle Ski and 3rd Place Womens Freestyle Snowboard. This was a huge success for myself and the
+                            club as a whole.  "];
+
+    $snow_role_subtitle = "It's more than just a few cool tricks";
+    $snow_role = ["Outside of 'Freestyle Captain' everyone within the SuSnow committee was responsible for the daily administration of the club. In order to function,
+                we needed to run a series of fundraser events throughout the year. These included our legendary 'Whiteout' bar crawel as well as merchendise creation
+                and sales. As committee members, we were all responsible for ensuring that the club had enough cashflow to function, while providing a fun and welcoming
+                environment for our members.", "Further to our fundasing events, we partnered with charities such as Mind and Disability Snowsports UK in order to give 
+                back to the community and culture which had helped support our club to where it stands today. Such events ranged from Sit-Ski Tuition for less-able athlets
+                to a ski and snowboard judging course, certifying participents in entry-level judging for the competitions we regularly compete in."];
+    
+    $snow_trip_subtitle = "THE BIGGEST EVENT OF THE YEAR";
+    $snow_trip_bodys = ["In addition to the many responsibilities of being a part of the SuSnow committee, planning and executing a ski trip for over 300 students was
+                        by far the biggest. Our designated 'Trip Organiser' took the lead when it came to negotiating and planning the ins and outs of the trip, while
+                        much of the legwork of promiting, selling and marketting our event was shared evenly througout the committee. ", 
+                        "The responsibility of running such a monumentous trip was one of the most rewarding parts of the year. We were able to share our love and passion 
+                        for snowsports with our valued members, bringing together all parts of the club for one well-deserved post-exam party. Follow the link below for
+                        our trip video, professionally currated by Matt Greenwell.
+                        "];
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Sneakers page content
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

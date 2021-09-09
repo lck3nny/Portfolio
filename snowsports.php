@@ -42,22 +42,22 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
        
         <section class="my-section my-project-intro my-snowsports-intro" id="snkrs-intro">
-            <h2 class="section_project-title section_project-title-light">How It Works</h2>
+            <h2 class="section_project-title section_project-title-light">What Was Involved</h2>
             <div class="project-descs">
 
                 <div class="project-desc">
-                    <h3 class="desc-head"><?php echo $snkrs_explained[0]?></h3>
-                    <p class="desc-body"><?php echo $snkrs_explained_body[0]?></p>
+                    <h3 class="desc-head"><?php echo $snow_explained[0]?></h3>
+                    <p class="desc-body"><?php echo $snow_explained_bodys[0]?></p>
                 </div> <!-- / project-desc -->
 
                 <div class="project-desc">
-                    <h3 class="desc-head"><?php echo $snkrs_explained[1]?></h3>
-                    <p class="desc-body"><?php echo $snkrs_explained_body[1]?></p>
+                    <h3 class="desc-head"><?php echo $snow_explained[1]?></h3>
+                    <p class="desc-body"><?php echo $snow_explained_bodys[1]?></p>
                 </div> <!-- / project-desc -->
 
                 <div class="project-desc">
-                    <h3 class="desc-head"><?php echo $snkrs_explained[2]?></h3>
-                    <p class="desc-body"><?php echo $snkrs_explained_body[2]?></p>
+                    <h3 class="desc-head"><?php echo $snow_explained[2]?></h3>
+                    <p class="desc-body"><?php echo $snow_explained_bodys[2]?></p>
                 </div> <!-- / project-desc -->
 
             </div> <!-- / project-descs -->
@@ -71,11 +71,11 @@
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <section class="my-section about-me" id="about">
             <h2 class="section_title section_title-about">My Role</h2>
-            <p class="section_subtitle section_subtitle-about"><?php echo $about_me_tagline;?></p>
+            <p class="section_subtitle section_subtitle-about"><?php echo $snow_role_subtitle;?></p>
 
             <div class="about-me_body">
-                <p><?php echo $about_me_bodys[0];?></p>
-                <p><?php echo $about_me_bodys[1];?></p>
+                <p><?php echo $snow_role[0];?></p>
+                <p><?php echo $snow_role[1];?></p>
             </div>
 
             <img src="img/medals.jpg" alt="picture of Liam smiling" class="about-me_img">
@@ -90,10 +90,12 @@
 
         <section class="my-project-end" id="trip">
             <h2 class="section_project-title section_project-title-light">Ski Trip</h2>
-            <h3 class="section_subtitle section_subtitle_end"><?php echo $snkrs_profit_subtitle?></h3>
-            <p class="project-end_body"><?php echo $snkrs_profit_body?></p>
-            <p class="project-end_body"><?php echo $snkrs_profit_body_2?></p>
-            <img img src="img/tignes.jpg" class="banner_img" alt="graph of sneaker profit">
+            <h3 class="section_subtitle section_subtitle_end"><?php echo $snow_trip_subtitle?></h3>
+            <p class="project-end_body"><?php echo $snow_trip_bodys[0]?></p>
+            <p class="project-end_body"><?php echo $snow_trip_bodys[1]?></p>
+            <a href="https://www.youtube.com/watch?v=5ywpW3mItNA&t=182s">
+                <img img src="img/tignes.jpg" class="banner_img" alt="graph of sneaker profit">
+            </a>
         </section>
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->

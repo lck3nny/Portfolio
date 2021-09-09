@@ -31,7 +31,7 @@
             <p class="section_subtitle section_subtitle-intro">
                 Capturing a moment
             </p>
-            <img img src="img/gallery/whis-eagle.JPG" class="intro_img" alt="ow_blazer_vanilla">
+            <img img src="img/gallery/whis-eagle.JPG" class="intro_img" alt="photography-title_img">
         </section> <!-- /section -->
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
