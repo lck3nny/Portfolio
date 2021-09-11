@@ -81,6 +81,10 @@ h1{font-size: var(--fs-h1);}
 h2{font-size: var(--fs-h2);}
 h3{font-size: var(--fs-h3);}
 
+.error{
+    color: red;
+}
+
 .btn {
     background: var(--clr-accent);
     font-size: var(--fs-btn);
@@ -1087,19 +1091,23 @@ section{
 
 }
 
+.name_error,
 .name{
     grid-area: name;
     padding-top: 0 2em;
 }
 
+.email_error,
 .email{
     grid-area: email;
 }
 
+.subject_error,
 .subject{
     grid-area: subject;
 }
 
+.msg_error,
 .msg_body{
     grid-area: msgBody;
 }
