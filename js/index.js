@@ -10,3 +10,9 @@ navLinks.forEach(link =>{
         document.body.classList.remove('nav-open');
     });
 })
+
+function getParameter(paramName){
+    let myParams = new URLSearchParams(window.location.search);
+    return myParams.get(paramName)
+}
+

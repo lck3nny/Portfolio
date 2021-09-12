@@ -37,7 +37,7 @@
         <!-- Contact Form -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-    
+
 
         <section class="my-section my-project-end" id="contact">
             <h2 class="section_project-title section_project-title-light"><?php echo $contact_title;?></h2>
@@ -47,17 +47,14 @@
 
             
                 <input class="name" type="text" name="name" placeholder="Full Name">
-                <span class="error name_error">* <?php echo $nameErr; ?></span>
                 <input class="email" type="text" name="email" placeholder="Your E-Mail">
-                <span class="error email_error">* <?php echo $emailErr; ?></span>
                 <input class="subject" type="text" name="subject" placeholder="Subject">
-                <span class="error subject_error">* <?php echo $subjectErr; ?></span>
                 <textarea class="msg_body" name="message" placeholder="Your Message"></textarea>
-                <span class="error msg_error">* <?php echo $messageErr; ?></span>
                 <button class="submit_btn" type="submit" name="submit">Send</button>
             </form>
         </section>
 
+        <script src="js/contact.js"></script>
         
 
 

@@ -18,6 +18,7 @@
     --clr-dark: #303030;
     --clr-darker: #1f1f1f;
     --clr-accent: #8CE5CF;
+    --clr-err: #FE5F55;
 
     --clr-white-trans: rgba(255, 255, 255, 255, 0.5);
     --clr-v-light-trans: rgba(48, 48, 48, 0.4);
