@@ -14,6 +14,8 @@
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/photo.css">
+        <link rel="stylesheet" href="css/index.css">
+
 
         <!-- Import Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
@@ -41,7 +43,9 @@
        
         <section class="my-section my-project-intro my-photo-intro gallery" id="gallery">
             <h2 class="section_project-title section_project-title-light">Gallery</h2>
-
+            <button class="btn_gal btn_pre"><</button>
+            <button class="btn_gal btn_nxt">></button>
+            
         </section>
 
         <script>src="js/gallery.js"</script>
@@ -149,6 +153,9 @@
                 
             </div>    
         </section>
+
+        <script src="js/gallery.js"></script>
+
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Footer Import -->

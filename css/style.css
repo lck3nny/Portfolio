@@ -25,6 +25,7 @@
     --clr-light-trans: rgba(48, 48, 48, 0.7);
     --clr-dark-trans: rgba(29, 29, 29, 0.85);
     --clr-v-dark-trans: rgba(29, 29, 29, 0.98);
+    --clr-accent-trans: rbga(140, 229, 207, 0.8);
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;

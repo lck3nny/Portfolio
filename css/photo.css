@@ -6,6 +6,32 @@
     background-image: url(../img/gallery/airplane.jpeg);
 }
 
+
+
+.btn_gal{
+    background-color: var(--clr-accent-trans);
+    border: none;
+    color: white;
+    height: 30px;
+    width: 3vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: var(--fs-btn);
+    position: relative;
+    margin-top: 35vh;
+}
+
+.btn_pre{
+    float: left;
+}
+
+.btn_nxt{
+    float: right;
+
+}
+
+
+
 .gallery-square{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(11vw, 1fr));
