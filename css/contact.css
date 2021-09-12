@@ -1,0 +1,52 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Contact */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+.contact-form{
+
+    width: 80vw;
+    margin: 0 auto;
+    background-color: var(--clr-dark-trans);
+    padding: 5vh 5vw;
+
+
+    display: grid;
+    grid-template-areas:    "name  email"
+                            "subject  subject"
+                            "msgBody  msgBody"   
+                            "btnSub  btnSub";
+
+    grid-template-columns: 35vw 35vw;
+    grid-template-rows: 7vh 7vh 40vh 7vh;
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
+    justify-content: center;
+
+}
+
+.name_error,
+.name{
+    grid-area: name;
+    padding-top: 0 2em;
+}
+
+.email_error,
+.email{
+    grid-area: email;
+}
+
+.subject_error,
+.subject{
+    grid-area: subject;
+}
+
+.msg_error,
+.msg_body{
+    grid-area: msgBody;
+}
+
+.submit_btn{
+    grid-area: btnSub;
+}
+

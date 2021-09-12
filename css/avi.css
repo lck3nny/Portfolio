@@ -1,0 +1,136 @@
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Avalanche */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.my-avi-intro{
+    background-image: url(../img/network3.jpg);
+}
+
+/* About Avalanches*/
+
+.about-avalanches{
+    margin: 0 auto;
+    width: 80vw;
+}
+
+
+
+@media(min-width: 880px){
+
+    .about-avalanches{
+        display: grid;
+        
+        grid-template-areas: "title img1"
+                            "subtitle img1"
+                            "text1 img1"
+                            "img2 text2";
+
+        grid-template-columns: 40vw 35vw;
+        grid-template-rows: 10vh 10vh 40vh  30vh;
+        grid-column-gap: 2em;
+    }
+
+    .section_title-about{
+        grid-area: title;
+    }
+
+    .section_subtitle-about{
+        grid-area: subtitle;
+        grid-column: 1 / -1;
+        position: relative;
+        left: -2em;
+        width: calc(100% + 4em);
+        padding-left: 2em;
+        padding-right: 40vw;
+        font-size: var(--fs-h4);
+    }
+
+    .img-wrapper{
+        display: flex;
+        z-index:2;
+
+        margin:0 auto;
+    }
+
+    .avi-img-1{
+        grid-area:img1;
+    }
+    .avi-img-2{
+        grid-area:img2;
+    }
+
+    .avi-pred-body{
+        grid-area: text1;
+        
+    }
+
+    .avi-pred-body2{
+        grid-area: text2;
+    }
+}
+
+/* LSTM Architecture*/
+
+.lstm_img{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.avi-data{
+    margin: 0 10vw 0 10vw;
+}
+
+/* Data Visualisation */
+@media(min-width: 880px){
+    .avi-data{
+        width: 80vw;
+        display: block;
+        height: 60vh;
+        justify-content: center;
+    }
+    
+    .avi-data_img{
+        height: 55vh;
+        margin: 0 auto;
+    }
+
+    .lstm_img{
+        height: 40vh;
+    }
+
+}
+
+
+/* Results */
+
+.avi-results{
+    margin: 0 10vw 0 10vw;
+}
+
+@media(min-width: 880px){
+
+    .avi-results{
+        display: grid;
+        
+        grid-template-areas: "text3 img3"
+                            "text3 img4";
+                            
+        grid-template-columns: 50vw 25vw;
+        grid-template-rows: 38vh  38vh;
+        grid-column-gap: 2em;
+    }
+    .avi-results-img1{
+        grid-area: img3;
+        display: flex;
+        background-color: white;
+    }
+
+    .avi-results-img2{
+        grid-area: img4;
+        display: flex;
+        background-color: white;
+    }
+
+
+}

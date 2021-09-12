@@ -1,0 +1,231 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* My Skills  */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.my-skills{
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    background-image: url(../img/macbook_vdark.png);
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+
+.section_title-skills{
+   color: var(--clr-light);
+   position: relative;
+   padding-bottom: 0.5em;
+}
+
+
+.skills{
+   width: 80vw;
+   margin: 0 auto;
+   background-color: var(--clr-dark-trans);
+   margin-bottom: 1em;
+   padding: 1em 1em 0em 1em;
+   
+}
+
+.skill-head{
+   color: var(--clr-accent);
+   font-family: var(--ff-primary);
+   font-size: var(--fs-small);
+   text-transform: uppercase;
+   font-size: var(--fs-body);
+}
+
+.skill-head::after{
+   content: '';
+   display: block;
+   width: inherit;
+   height: 1px;
+   margin-top: 0.8em;
+   margin-bottom: 0.5em;
+   
+   background-color: var(--clr-light);
+   opacity: 0.4;
+}
+
+.skill-body{
+   font-family: var(--ff-secondary);
+   font-size: 1.4vw;
+   letter-spacing: 0em;
+   word-spacing: 0;
+   margin: 3vh auto;
+}
+
+.key-word{
+   color: var(--clr-accent);
+   text-shadow: #fff;
+   letter-spacing: 0.1em;
+}
+
+@media (min-width: 880px){
+
+   .my-skills{
+       height: 101vh;
+   }
+
+   .skills {
+       display: flex;
+       margin-left:  auto;
+       margin-right: auto;
+       height: 78vh;
+       overflow: hidden;
+   }
+
+   .skill + .skill{
+       margin-left: 3em;
+   }
+
+   
+}
+
+@media (max-width: 880px){
+   .skill-body{
+       font-size: var(--fs-body);
+   }
+
+   .skill-head{
+       font-size: var(--fs-body);
+   }
+}
+
+@media (min-width: 880px) and (max-width: 1000px){
+   .skill-body{
+       font-size: 1.3vw;
+       padding: 1.2vw 0;
+   }
+}
+
+@media (min-width: 1000px){
+   .skill-body{
+       font-size: 1.2vw;
+       padding: 1.2vw 0;
+   }
+}
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* About Me */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.about-me{
+   width: 80vw;
+   margin: 0 auto;
+   padding: 10vh 0;
+}
+
+
+@media(min-width: 880px){
+   .about-me{
+       display: grid;
+       grid-template-columns: 1fr 300px;
+       grid-template-rows: 10vh 15vh 50vh;
+       grid-template-areas: "title img"
+                           "subtitle img"
+                           "text img";
+       grid-column-gap: 2em;
+   }
+
+   .section_title-about{
+       grid-area: title;
+   }
+
+   .section_subtitle-about{
+       grid-area: subtitle;
+       grid-column: 1 / -1;
+       position: relative;
+       left: -2em;
+       width: calc(100% + 4em);
+       padding-left: 2em;
+       padding-right: 17em;
+       font-size: var(--fs-h4);
+       height: 10vh;
+   }
+
+   .about-me_img{
+       grid-area: img;
+       position: relative;
+       z-index: 2;
+       padding-right: 5em;
+       min-width: 25em;
+   }
+
+   .about-me_body{
+       font-size: var(--fs-h4);
+   }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Portfolio */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.my-projects{
+   background-color: var(--clr-dark);
+
+   background-size: cover;
+   background-position: center;
+   color: var(--clr-light);
+   text-align: center;
+   width: 100vw;
+}
+
+
+.portfolio{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(28vh, 1fr));
+   margin: 0 auto;
+}
+
+@media (min-width: 880px){
+   .portfolio{
+       overflow: scroll;
+       max-width: 50vw;
+       max-height: 70vh;
+   }
+}
+
+
+.portfolio_item{
+   background-color: var(--clr-accent);
+   overflow: hidden;
+   position: relative;
+}
+
+.portfolio_text{
+   color: var(--clr-accent);
+   font-family: var(--ff-secondary);
+   font-size: var(--fs-h3);
+   font-weight: var(--fw-bold);
+   text-shadow: var(--clr-dark);
+   text-transform: uppercase;
+   text-decoration: none;
+   z-index: 15;
+   position: absolute;
+   top: 45%;
+   left: 5%;
+   right: 5%;
+   background-color: var(--clr-light-trans);
+   
+}
+
+
+.portfolio_img{
+   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
+               opacity 250ms linear;
+}
+
+.portfolio_item:focus{
+   position: relative;
+   z-index: 2;
+}
+
+
+.portfolio_img:hover,
+.portfolio_item:focus .portfolio_img{
+   transform: scale(1.25);
+   opacity: 0.75;
+}

@@ -1,0 +1,48 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Photography */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.my-photo-intro{
+    background-image: url(../img/gallery/airplane.jpeg);
+}
+
+.gallery-square{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11vw, 1fr));
+    margin: 0 auto;
+}
+
+@media (min-width: 880px){
+    .gallery-square{
+        overflow: scroll;
+        max-width: 70vw;
+        max-height: 75vh;
+    }
+}
+
+
+.gallery_sq_item{
+    background-color: var(--clr-accent);
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+.sq_gallery_img{
+    transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
+                opacity 250ms linear;
+}
+
+.sq_gallery_img:focus{
+    position: relative;
+    z-index: 2;
+}
+
+
+.sq_gallery_img:hover,
+.sq_gallery_img:focus .portfolio_img{
+    transform: scale(1.25);
+    opacity: 0.75;
+}

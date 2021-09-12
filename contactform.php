@@ -58,7 +58,7 @@
             $mailSubject = "Mail From: " . $mailFrom . " - " . $subject;
             */
 
-            header("Location: index.php?mailsent");
+            header("Location: index.php?mailsent=True");
 
         }else{
             header("Location: contact.php?" . $urlParams);

@@ -16,3 +16,8 @@ function getParameter(paramName){
     return myParams.get(paramName)
 }
 
+mailsent = getParameter("mailsent");
+if(mailsent != null){
+    window.alert("Mail Sent! We will get back to you shortly.")
+}
+
