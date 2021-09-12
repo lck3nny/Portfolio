@@ -38,14 +38,12 @@
         <!-- Gallery -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
        
-        <section class="my-section my-project-intro my-photo-intro" id="gallery">
+        <section class="my-section my-project-intro my-photo-intro gallery" id="gallery">
             <h2 class="section_project-title section_project-title-light">Gallery</h2>
-         
 
-                
-            
-            
         </section>
+
+        <script>src="js/gallery.js"</script>
 
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <!-- Gallery 2 -->
